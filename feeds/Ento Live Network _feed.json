@@ -1,0 +1,541 @@
+{
+  "version": "1",
+  "defaultLanguage": "en",
+  "defaultAvailabilityCountries": [
+    "us",
+    "mx"
+  ],
+  "assets": [
+    {
+      "id": "68931bde8a25596076f019b1",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "FashionTV",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "FashionTV is an international fashion and lifestyle broadcasting television channel.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "FashionTV is an international fashion and lifestyle broadcasting television channel.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/recUEZiDQEylyI85g/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931bde8a25596076f019b1",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931bcf8a25596076f019a5",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "ABC NEWS 24",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "ABC NEWS 24",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "ABC NEWS 24",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/rec4zhCZHP65D30dH/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931bcf8a25596076f019a5",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931be18a25596076f019b4",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Al Jazeera News Network",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Al Jazeera News Network",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Al Jazeera News Network",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/recYf6V8sr68fUl4W/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931be18a25596076f019b4",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931bec8a25596076f019bd",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Court TV",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "court tv is your front row seat to justice….testimony has concluded and closing arguments",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "court tv is your front row seat to justice….testimony has concluded and closing arguments",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/reck7P771keDcd0DG/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931bec8a25596076f019bd",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931be88a25596076f019ba",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Rouge TV",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Rouge TV is a television station in Le Mont-sur-Lausanne, Switzerland, providing Entertainment progr",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Rouge TV is a television station in Le Mont-sur-Lausanne, Switzerland, providing Entertainment programs in French",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/recdvidE7Bm2gKfBM/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931be88a25596076f019ba",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931bd38a25596076f019a8",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Expo Channel Australia",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Expo Channel is an Australian home shopping channel. It is owned by parent company Direct Group Pty ",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Expo Channel is an Australian home shopping channel. It is owned by parent company Direct Group Pty Ltd, a marketing and direct sales company based in Sydney, which also owns sister channel TVSN.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/rec5coUv5FhNhroVj/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931bd38a25596076f019a8",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931bda8a25596076f019ae",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Tennis Channel",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Tennis Channel is an American sports-oriented digital cable and satellite television network",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Tennis Channel is an American sports-oriented digital cable and satellite television network",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/recOko7xyBbczC5Pl/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931bda8a25596076f019ae",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931be48a25596076f019b7",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Stadium",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Stadium is a digital television and internet sports network operated as a multi-platform sports netw",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Stadium is a digital television and internet sports network operated as a multi-platform sports network.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/reccwE1eIUUrPJojG/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931be48a25596076f019b7",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68931bd78a25596076f019ab",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Gemporia",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Gemporia is a British television and online jewellery retailer. The main television channel operated",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Gemporia is a British television and online jewellery retailer. The main television channel operated by the business is Gems TV",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-06",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://assets.castify.ai/files/video_libraries/lw/494/36/997/recF7WYavhU7Ph2W3/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68931bd78a25596076f019ab",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

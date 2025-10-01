@@ -1,0 +1,1190 @@
+{
+  "version": "1",
+  "defaultLanguage": "en",
+  "defaultAvailabilityCountries": [
+    "us",
+    "mx"
+  ],
+  "assets": [
+    {
+      "id": "685b4328e312e728ff2f9a1f",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "euronews",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Euronews is a European television news network, headquartered in Brussels, Belgium",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Euronews is a European television news network, headquartered in Brussels, Belgium",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recCfSDWTwRvrH2zc/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b4328e312e728ff2f9a1f",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68a57e868f5e408c10784347",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Fireplace 10 hours full HD",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Fireplace 10 hours in full HD resolution.\\r\\n10 hours burning logs loop play",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Fireplace 10 hours in full HD resolution.\\r\\n10 hours burning logs loop play",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-20",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TVY"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://castify-studio.b-cdn.net/685b42a6a250d043534a621d/1920x1080_812x447.png",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68a57e868f5e408c10784347",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b4324e312e728ff2f9a1c",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Arirang TV",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Arirang TV is an international, English-broadcasting television network based in Seoul, South Korea.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Arirang TV is an international, English-broadcasting television network based in Seoul, South Korea.\n\nArirang TV is a public service agency that spreads the uniqueness of Korea to the world through cutting-edge broadcasting mediums.\n\nArirang TV's objective is to burnish Korea's image in internationa",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/rec6kgfAAOyuCNGJz/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b4324e312e728ff2f9a1c",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68a583c58f5e408c10784524",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Extreme+",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "The original extreme sports channel.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "The original extreme sports channel, bringing global audiences the best mix of extreme sports from around the world 24/7.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-20",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TVY"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://castify-studio.b-cdn.net/685b42a6a250d043534a621d/1674569065_812x448.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68a583c58f5e408c10784524",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b4315e312e728ff2f9a10",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "عربي TRT",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "لنكونَ معكم في فهم ما وراء الخبر، ونغوصَ في أعماق الأحداث وتحليلاتها",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "لنكونَ معكم في فهم ما وراء الخبر، ونغوصَ في أعماق الأحداث وتحليلاتها",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recGfLJvtA4ZwN6wJ/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b4315e312e728ff2f9a10",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b42aee312e728ff2f99ec",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Revry",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Revry is the LGBTQ-first streaming media network with live TV, movies, series, news and exclusive Or",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Revry is the LGBTQ-first streaming media network with live TV, movies, series, news and exclusive Original programming.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recEoeaI5WT8Jm5Ej/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b42aee312e728ff2f99ec",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b4308e312e728ff2f9a04",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Al Jazeera English",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Al Jazeera English is an international 24-hour English-language news channel owned by the Al Jazeera",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Al Jazeera English is an international 24-hour English-language news channel owned by the Al Jazeera Media Network.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recSDnKAU3zcrmfT9/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b4308e312e728ff2f9a04",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68a58a248f5e408c107849d8",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Unreel Live",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Unreel Channel is a 24-hour one-stop shop for capturing all extreme sports worldwide",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Unreel Channel is a 24-hour one-stop shop for capturing all extreme sports worldwide. Strong adrenaline action from skateboarding, snowboarding, freestyle skiing, inline roller, Parkour, BMX, mountain biking and more..",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-20",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TVY"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://castify-studio.b-cdn.net/685b42a6a250d043534a621d/thumb_landscape_812x448.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68a58a248f5e408c107849d8",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b4304e312e728ff2f9a01",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Right Now TV",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Right Now Tv is the nonstop, turbo-charged television network that delivers action-packed, bleeding ",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Right Now Tv is the nonstop, turbo-charged television network that delivers action-packed, bleeding edge TV to the world. We bring you the absolute best sports, comedies, talk shows, and outdoor adventures on television. We’re on 24 hours a day, seven days a week.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recQfOPGptuSDnOnd/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b4304e312e728ff2f9a01",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b42b5e312e728ff2f99f2",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "CNA",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "LIVE\nWatch CNA's 24-hour live coverage of the latest headlines and top stories from Singapore, Asia ",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "LIVE\nWatch CNA's 24-hour live coverage of the latest headlines and top stories from Singapore, Asia and around the world,.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recEbG7NA8Vp8IuoE/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b42b5e312e728ff2f99f2",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b42b1e312e728ff2f99ef",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Revry Her",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Revry Her is the largest home of queer content for women with work created by women.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Revry Her is the largest home of queer content for women with work created by women.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recfEALDC6EsjvEPD/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b42b1e312e728ff2f99ef",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68a587728f5e408c1078468a",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Auto Allstars Live",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Auto Allstars Channel ask you to strap in for some pedal to the metal action.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Auto Allstars Channel ask you to strap in for some pedal to the metal action from the motorsport world. Enjoy your favourite events live from land, sea and air 24 hours.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-20",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TVY"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://castify-studio.b-cdn.net/685b42a6a250d043534a621d/AA%20App%20TV%20CHANNEL_812x448.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68a587728f5e408c1078468a",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b431ce312e728ff2f9a16",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "V2BEAT TV POP Dance Europe",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Looking for Best of European dance music?\nTune in to the hottest dance music from across Europe.\nFro",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Looking for Best of European dance music?\nTune in to the hottest dance music from across Europe.\nFrom chart-topping hits and underground classics, to exclusive mixes and live events.\n\nV2BEAT POP & Dance Radio literally “Video to beat” was born recently from the heart of Europe and being young wants ",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recFEjklWnLZdAnw6/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b431ce312e728ff2f9a16",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b42abe312e728ff2f99e9",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Revery News",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Revry is the LGBTQ-first streaming media network with over 5,000 titles on free live TV, movies, ser",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Revry is the LGBTQ-first streaming media network with over 5,000 titles on free live TV, movies, series, news and exclusive Original",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recBX53KPUffBiYCz/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b42abe312e728ff2f99e9",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "68a58b4a8f5e408c10784b32",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "FashionTV Paris L'Original",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "See the luxurious version of FashionTV.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "See the luxurious version of FashionTV, focusing on world's highest brands created and featured by top designers and amazing top models.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-08-20",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TVY"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://castify-studio.b-cdn.net/685b42a6a250d043534a621d/1628255719276_812x448.png",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "68a58b4a8f5e408c10784b32",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b432ce312e728ff2f9a22",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Africanews",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Africanews is a pan-African multilingual news network located in Lyon, France previously headquarter",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Africanews is a pan-African multilingual news network located in Lyon, France previously headquartered in Pointe-Noire, Republic of the Congo.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/rec7OwnVoJrxyrpre/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b432ce312e728ff2f9a22",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b430fe312e728ff2f9a0a",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "TRT World",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "TRT World is a Turkish public broadcaster international news channel which broadcasts in English 24 ",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "TRT World is a Turkish public broadcaster international news channel which broadcasts in English 24 hours a day, operated by the TRT and based in Taksim Square, Istıklal Avenue, Beyoğlu, Istanbul. It provides worldwide news and current affairs focusing on Turkey, Europe, Africa, and Western and Sout",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recv82dv6yJyTFTbV/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b430fe312e728ff2f9a0a",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b4312e312e728ff2f9a0d",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "France 24 - English News",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Breaking news and world news from France 24 on Business, Sports, Culture. Video news. News from the ",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Breaking news and world news from France 24 on Business, Sports, Culture. Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recT0hjexjQaHxZBj/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b4312e312e728ff2f9a0d",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b430be312e728ff2f9a07",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "Deutsche Welle",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "Germany's international news channel Deutsche Welle with its english channel. Keep up with internati",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "Germany's international news channel Deutsche Welle with its english channel. Keep up with international news and updates from europe and germany.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/rechBjgDsWTRI5kJR/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b430be312e728ff2f9a07",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "685b42b9e312e728ff2f99f5",
+      "type": "shortform",
+      "titles": [
+        {
+          "value": "FashionTV",
+          "language": "en"
+        }
+      ],
+      "shortDescriptions": [
+        {
+          "value": "FashionTV is an international fashion and lifestyle broadcasting television channel.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "longDescriptions": [
+        {
+          "value": "FashionTV is an international fashion and lifestyle broadcasting television channel.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "releaseDate": "2025-06-25",
+      "genres": [],
+      "advisoryRatings": [
+        {
+          "source": "USA_PR",
+          "value": "TV14"
+        }
+      ],
+      "images": [
+        {
+          "type": "main",
+          "url": "https://cdn.castify.ai/files/video_libraries/lw/381/36/826/recF6hJYZiFYrr7B0/thumb_landscape.jpg",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "durationInSeconds": 0,
+      "content": {
+        "playOptions": [
+          {
+            "license": "free",
+            "quality": "hd",
+            "playId": "685b42b9e312e728ff2f99f5",
+            "availabilityInfo": {
+              "country": [
+                "us",
+                "mx"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
