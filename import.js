@@ -6,7 +6,7 @@ require("dotenv").config();
 const base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base("appM9WlWxrWZwSu5j");
 
 // API endpoint
-const API_URL = 'https://backend.castify.ai/api/brands/6853b2d08f289a086f78329e/contents?limit=1000';
+const API_URL = 'https://backend.castify.ai/api/brands/685b8e0ca250d043534bdcd3/contents?limit=1000';
 
 async function importData() {
   try {
@@ -20,7 +20,7 @@ async function importData() {
     console.log(`📦 Found ${data.length} videos to import`);
 
     for (const videoData of data) {
-      await base("IndiMusic TV").create({
+      await base("Live Olympics TV").create({
         video_id: videoData._id || "",
         video_title: videoData.title || "",
         video_description: videoData.shortDescription || "",

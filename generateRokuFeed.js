@@ -6,10 +6,10 @@ require("dotenv").config();
 const base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base("appM9WlWxrWZwSu5j");
 
 // Table name in Airtable
-const TABLE_NAME = "IndiMusic TV";
+const TABLE_NAME = "Live Olympics TV ";
 
 // Roku feed output file
-const OUTPUT_FILE = "IndiMusic TV_feed.json";
+const OUTPUT_FILE = "Live Olympics TV_feed.json";
 
 // Map Airtable contentRating → Roku advisory rating
 const ratingMap = {
