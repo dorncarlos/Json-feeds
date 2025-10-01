@@ -1,5 +1,6 @@
 {
   "version": "1",
+  "providerName": "Todazon",
   "defaultLanguage": "en",
   "defaultAvailabilityCountries": [
     "us",
@@ -9,12 +10,7 @@
     {
       "id": "685b8e8be312e728ff2fd1d2",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "108 years later...  🥏 | Discus throw then & now!",
-          "language": "en"
-        }
-      ],
+      "title": "108 years later...  🥏 | Discus throw then & now!",
       "shortDescriptions": [
         {
           "value": "📺 Watch all the #Paris2024 action LIVE! ➡️ https://go.olympics.com/watch \n\n📲 Subscribe to @olympic",
@@ -32,13 +28,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -48,13 +41,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e8be312e728ff2fd1d2",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -68,12 +63,7 @@
     {
       "id": "685b8e3ae312e728ff2fd196",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Jakob Ingebrigtsen - Men's 1,500m | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Jakob Ingebrigtsen - Men's 1,500m | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nJakob Ingebrigtsen, the Norwegian middle-distan",
@@ -91,13 +81,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -107,13 +94,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e3ae312e728ff2fd196",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -127,12 +116,7 @@
     {
       "id": "685b8ed9e312e728ff2fd20b",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Women's 400 m hurdles Sydney McLaughlin-Levrone 🇺🇸🥇| Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Women's 400 m hurdles Sydney McLaughlin-Levrone 🇺🇸🥇| Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📺 Watch all the #Paris2024 action LIVE! ➡️ https://go.olympics.com/watch \n\nMcLaughlin beat her own ",
@@ -150,13 +134,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -166,13 +147,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ed9e312e728ff2fd20b",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -186,12 +169,7 @@
     {
       "id": "685b8e23e312e728ff2fd184",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Zhang Yufei - Women's 200 m butterfly | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Zhang Yufei - Women's 200 m butterfly | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nZhang Yufei beams in delight on winning her sec",
@@ -209,13 +187,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -225,13 +200,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e23e312e728ff2fd184",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -245,12 +222,7 @@
     {
       "id": "685b8e56e312e728ff2fd1ab",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "28 years later ... 🏸  | Men's badminton Then and Now!",
-          "language": "en"
-        }
-      ],
+      "title": "28 years later ... 🏸  | Men's badminton Then and Now!",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -268,13 +240,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -284,13 +253,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e56e312e728ff2fd1ab",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -304,12 +275,7 @@
     {
       "id": "685b8e59e312e728ff2fd1ae",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Alexandra Klineman & April Ross 🏐🥇 Women's Beach Volleyball | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Alexandra Klineman & April Ross 🏐🥇 Women's Beach Volleyball | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -327,13 +293,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -343,13 +306,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e59e312e728ff2fd1ae",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -363,12 +328,7 @@
     {
       "id": "685b8e97e312e728ff2fd1db",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "They had to check who won!? 🤯 | Down To The Wire",
-          "language": "en"
-        }
-      ],
+      "title": "They had to check who won!? 🤯 | Down To The Wire",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -386,13 +346,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -402,13 +359,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e97e312e728ff2fd1db",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -422,12 +381,7 @@
     {
       "id": "685b8e6ae312e728ff2fd1ba",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Women Track Cycling Sprint 🥇Kelsey Mitchell | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Women Track Cycling Sprint 🥇Kelsey Mitchell | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -445,13 +399,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -461,13 +412,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e6ae312e728ff2fd1ba",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -481,12 +434,7 @@
     {
       "id": "685b8e42e312e728ff2fd19c",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Chen Yu Fei wins the Gold Medal! 🏸🔥 Women's Badminton Singles Final 🥇 Full Match!",
-          "language": "en"
-        }
-      ],
+      "title": "Chen Yu Fei wins the Gold Medal! 🏸🔥 Women's Badminton Singles Final 🥇 Full Match!",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -504,13 +452,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -520,13 +465,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e42e312e728ff2fd19c",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -540,12 +487,7 @@
     {
       "id": "685b8e81e312e728ff2fd1cc",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Yui Ohashi beats them all! 🔥| Women's 400m individual medley | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Yui Ohashi beats them all! 🔥| Women's 400m individual medley | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nWatch the highlights of the 400m Women's indivi",
@@ -563,13 +505,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -579,13 +518,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e81e312e728ff2fd1cc",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -599,12 +540,7 @@
     {
       "id": "685b8eb0e312e728ff2fd1ed",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Ahmed Hafnaoui - Men's 400m freestyle | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Ahmed Hafnaoui - Men's 400m freestyle | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nAhmed Hafnaoui, a talented swimmer from Tunisia",
@@ -622,13 +558,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -638,13 +571,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8eb0e312e728ff2fd1ed",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -658,12 +593,7 @@
     {
       "id": "685b8ecce312e728ff2fd202",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Team GB🥇🇬🇧 Mixed Relay Triathlon | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Team GB🥇🇬🇧 Mixed Relay Triathlon | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -681,13 +611,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -697,13 +624,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ecce312e728ff2fd202",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -717,12 +646,7 @@
     {
       "id": "685b8ed0e312e728ff2fd205",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Wrestling - 1912 🆚 2020 | Then and Now",
-          "language": "en"
-        }
-      ],
+      "title": "Wrestling - 1912 🆚 2020 | Then and Now",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nEmbark on a journey through the evolution of Ol",
@@ -740,13 +664,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -756,13 +677,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ed0e312e728ff2fd205",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -776,12 +699,7 @@
     {
       "id": "685b8e5ee312e728ff2fd1b1",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "1928 Canada 🆚 2020 Jamaica - 4x 100m Relay | Then vs. Now",
-          "language": "en"
-        }
-      ],
+      "title": "1928 Canada 🆚 2020 Jamaica - 4x 100m Relay | Then vs. Now",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nTake a look back in time and compare the 4x100 ",
@@ -799,13 +717,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -815,13 +730,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e5ee312e728ff2fd1b1",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -835,12 +752,7 @@
     {
       "id": "685b8e2ee312e728ff2fd18d",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "👀 Evolution of Men's Long Jump at the Olympics! | Then and Now",
-          "language": "en"
-        }
-      ],
+      "title": "👀 Evolution of Men's Long Jump at the Olympics! | Then and Now",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -858,13 +770,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -874,13 +783,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e2ee312e728ff2fd18d",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -894,12 +805,7 @@
     {
       "id": "685b8e87e312e728ff2fd1cf",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "🏃🏻‍♀️ 36 Years of Women's Marathon! | Then and Now",
-          "language": "en"
-        }
-      ],
+      "title": "🏃🏻‍♀️ 36 Years of Women's Marathon! | Then and Now",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -917,13 +823,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -933,13 +836,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e87e312e728ff2fd1cf",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -953,12 +858,7 @@
     {
       "id": "685b8eb8e312e728ff2fd1f3",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Women's 100 m butterfly Margaret Mac Neil🥇| Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Women's 100 m butterfly Margaret Mac Neil🥇| Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -976,13 +876,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -992,13 +889,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8eb8e312e728ff2fd1f3",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1012,12 +911,7 @@
     {
       "id": "685b8e4ee312e728ff2fd1a5",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Emma McKeon's historic 50m freestyle Olympic triumph! 🏅🇦🇺 | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Emma McKeon's historic 50m freestyle Olympic triumph! 🏅🇦🇺 | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -1035,13 +929,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1051,13 +942,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e4ee312e728ff2fd1a5",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1071,12 +964,7 @@
     {
       "id": "685b8e4be312e728ff2fd1a2",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "108 years later... 💦  | Diving 10m Platform then & now!",
-          "language": "en"
-        }
-      ],
+      "title": "108 years later... 💦  | Diving 10m Platform then & now!",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe captivating world of Olympic diving from th",
@@ -1094,13 +982,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1110,13 +995,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e4be312e728ff2fd1a2",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1130,12 +1017,7 @@
     {
       "id": "685b8e45e312e728ff2fd19f",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Zhu Xueying - Women's Trampoline | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Zhu Xueying - Women's Trampoline | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "For more artistic gymnastics videos, subscribe to our dedicated Olympics Gymnastics channel: https:/",
@@ -1153,13 +1035,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1169,13 +1048,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e45e312e728ff2fd19f",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1189,12 +1070,7 @@
     {
       "id": "685b8e90e312e728ff2fd1d5",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Women's 200m - 1948 🆚 2020 | Then and Now",
-          "language": "en"
-        }
-      ],
+      "title": "Women's 200m - 1948 🆚 2020 | Then and Now",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nStep back in time and witness the remarkable ev",
@@ -1212,13 +1088,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1228,13 +1101,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e90e312e728ff2fd1d5",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1248,12 +1123,7 @@
     {
       "id": "685b8e72e312e728ff2fd1c0",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "400m Hurdles finals... 90 years apart! | Then & Now",
-          "language": "en"
-        }
-      ],
+      "title": "400m Hurdles finals... 90 years apart! | Then & Now",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nWe bring you the 400m men's Hurdles finals from",
@@ -1271,13 +1141,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1287,13 +1154,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e72e312e728ff2fd1c0",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1307,12 +1176,7 @@
     {
       "id": "685b8e6de312e728ff2fd1bd",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Tokyo 2020 Women's Water Polo Champs🥇Team USA🇺🇸 | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Tokyo 2020 Women's Water Polo Champs🥇Team USA🇺🇸 | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -1330,13 +1194,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1346,13 +1207,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e6de312e728ff2fd1bd",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1366,12 +1229,7 @@
     {
       "id": "685b8e15e312e728ff2fd17b",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "One of the greatest: Carl Lewis' long jump successes 🤩",
-          "language": "en"
-        }
-      ],
+      "title": "One of the greatest: Carl Lewis' long jump successes 🤩",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -1389,13 +1247,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1405,13 +1260,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e15e312e728ff2fd17b",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1425,12 +1282,7 @@
     {
       "id": "685b8eb4e312e728ff2fd1f0",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "The fascination of high diving! Women's jumps from the 10 meter tower 🤯💦",
-          "language": "en"
-        }
-      ],
+      "title": "The fascination of high diving! Women's jumps from the 10 meter tower 🤯💦",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe sport made its debut in St. Louis back in 1",
@@ -1448,13 +1300,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1464,13 +1313,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8eb4e312e728ff2fd1f0",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1484,12 +1335,7 @@
     {
       "id": "685b8ebfe312e728ff2fd1f9",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "New Zealand - Women's Rugby 7s | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "New Zealand - Women's Rugby 7s | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nOn July 31st, 2021, the women's rugby 7s final ",
@@ -1507,13 +1353,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1523,13 +1366,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ebfe312e728ff2fd1f9",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1543,12 +1388,7 @@
     {
       "id": "685b8ea4e312e728ff2fd1e4",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "What a Performance! 🔥 Nina Darwael 🇧🇪 Women's Uneven Bars 🥇 | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "What a Performance! 🔥 Nina Darwael 🇧🇪 Women's Uneven Bars 🥇 | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -1566,13 +1406,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1582,13 +1419,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ea4e312e728ff2fd1e4",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1602,12 +1441,7 @@
     {
       "id": "685b8ec8e312e728ff2fd1ff",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "🏊🏼‍♀️ 17-year-old Lydia Jacoby! 🇺🇸 | Women's 100m breaststroke | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "🏊🏼‍♀️ 17-year-old Lydia Jacoby! 🇺🇸 | Women's 100m breaststroke | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -1625,13 +1459,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1641,13 +1472,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ec8e312e728ff2fd1ff",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1661,12 +1494,7 @@
     {
       "id": "685b8e7ee312e728ff2fd1c9",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Sifan Hassan - Women's 5,000m | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Sifan Hassan - Women's 5,000m | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nSifan Hassan is a true force to be reckoned wit",
@@ -1684,13 +1512,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1700,13 +1525,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e7ee312e728ff2fd1c9",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1720,12 +1547,7 @@
     {
       "id": "685b8e36e312e728ff2fd193",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Team Belgium - Men's Hockey | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Team Belgium - Men's Hockey | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe Belgian Men's Hockey team achieved a histor",
@@ -1743,13 +1565,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1759,13 +1578,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e36e312e728ff2fd193",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1779,12 +1600,7 @@
     {
       "id": "685b8e26e312e728ff2fd187",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Team USA - Women's 4x400m | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Team USA - Women's 4x400m | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe reigning Olympic champions in the women's 4",
@@ -1802,13 +1618,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1818,13 +1631,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e26e312e728ff2fd187",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1838,12 +1653,7 @@
     {
       "id": "685b8e62e312e728ff2fd1b4",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Danish Masterclass! 🇩🇰🏸 Men's Badminton Reigning Champions🥇",
-          "language": "en"
-        }
-      ],
+      "title": "Danish Masterclass! 🇩🇰🏸 Men's Badminton Reigning Champions🥇",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -1861,13 +1671,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1877,13 +1684,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e62e312e728ff2fd1b4",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1897,12 +1706,7 @@
     {
       "id": "685b8ebce312e728ff2fd1f6",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Kristian Blummenfelt - Men's Triathlon | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Kristian Blummenfelt - Men's Triathlon | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nKristian Blummenfelt is an accomplished Norwegi",
@@ -1920,13 +1724,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1936,13 +1737,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ebce312e728ff2fd1f6",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -1956,12 +1759,7 @@
     {
       "id": "685b8ea8e312e728ff2fd1e7",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Beth Shriever - Women's BMX racing | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Beth Shriever - Women's BMX racing | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "All the latest BMX news, videos and more:https://oly.ch/YTBMX\n\nIn a highly contested final, it was T",
@@ -1979,13 +1777,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -1995,13 +1790,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ea8e312e728ff2fd1e7",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2015,12 +1812,7 @@
     {
       "id": "685b8ed3e312e728ff2fd208",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Team GB - Mixed 4x100m Medley Relay | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Team GB - Mixed 4x100m Medley Relay | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nTeam GB made an unforgettable mark in Olympic h",
@@ -2038,13 +1830,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2054,13 +1843,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ed3e312e728ff2fd208",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2074,12 +1865,7 @@
     {
       "id": "685b8e76e312e728ff2fd1c3",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Team USA 🥇🇺🇸 Men's Basketball | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Team USA 🥇🇺🇸 Men's Basketball | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -2097,13 +1883,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2113,13 +1896,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e76e312e728ff2fd1c3",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2133,12 +1918,7 @@
     {
       "id": "685b8ec5e312e728ff2fd1fc",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Win a ticket to watch an event with @Visa",
-          "language": "en"
-        }
-      ],
+      "title": "Win a ticket to watch an event with @Visa",
       "shortDescriptions": [
         {
           "value": "The Paris 2024 megastore for all your Paris 2024 dreams. Don’t miss your chance to scratch and win a",
@@ -2156,13 +1936,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2172,13 +1949,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8ec5e312e728ff2fd1fc",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2192,12 +1971,7 @@
     {
       "id": "685b8eabe312e728ff2fd1ea",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "52! Years Later ... 🦋 | Women's 200m Butterfly Then and Now!",
-          "language": "en"
-        }
-      ],
+      "title": "52! Years Later ... 🦋 | Women's 200m Butterfly Then and Now!",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -2215,13 +1989,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2231,13 +2002,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8eabe312e728ff2fd1ea",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2251,12 +2024,7 @@
     {
       "id": "685b8e52e312e728ff2fd1a8",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Joe Choong - Men's Modern Pentathlon | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Joe Choong - Men's Modern Pentathlon | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nJoseph Choong, a British modern pentathlete, wo",
@@ -2274,13 +2042,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2290,13 +2055,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e52e312e728ff2fd1a8",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2310,12 +2077,7 @@
     {
       "id": "685b8e29e312e728ff2fd18a",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "💪 The Transformation of Hammer Throw 1️⃣0️⃣8️⃣ Years of Progress! | Then and Now",
-          "language": "en"
-        }
-      ],
+      "title": "💪 The Transformation of Hammer Throw 1️⃣0️⃣8️⃣ Years of Progress! | Then and Now",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -2333,13 +2095,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2349,13 +2108,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e29e312e728ff2fd18a",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2369,12 +2130,7 @@
     {
       "id": "685b8e1de312e728ff2fd181",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "88 Years later... 🤯 | Women's Javelin Then and Now!",
-          "language": "en"
-        }
-      ],
+      "title": "88 Years later... 🤯 | Women's Javelin Then and Now!",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -2392,13 +2148,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2408,13 +2161,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e1de312e728ff2fd181",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2428,12 +2183,7 @@
     {
       "id": "685b8e3de312e728ff2fd199",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "🇨🇳 Chen Yufei: \"I'm very happy & it feels unreal\" 🏅 | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "🇨🇳 Chen Yufei: \"I'm very happy & it feels unreal\" 🏅 | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -2451,13 +2201,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2467,13 +2214,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e3de312e728ff2fd199",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2487,12 +2236,7 @@
     {
       "id": "685b8e12e312e728ff2fd178",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Greysia Polii & Apriyani Rahayu - Women's Doubles Badminton | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Greysia Polii & Apriyani Rahayu - Women's Doubles Badminton | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nIn this video, we will feature highlights from ",
@@ -2510,13 +2254,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2526,13 +2267,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e12e312e728ff2fd178",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2546,12 +2289,7 @@
     {
       "id": "685b8e79e312e728ff2fd1c6",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Lamont Marcell Jacobs - Men's 100m | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Lamont Marcell Jacobs - Men's 100m | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nReigning Champion 🤩\n\nLamont Marcell Jacobs' wi",
@@ -2569,13 +2307,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2585,13 +2320,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e79e312e728ff2fd1c6",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2605,12 +2342,7 @@
     {
       "id": "685b8e93e312e728ff2fd1d8",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Neeraj Chopra 🇮🇳 wins India's First Track and Field Olympic Gold 🥇 | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Neeraj Chopra 🇮🇳 wins India's First Track and Field Olympic Gold 🥇 | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
@@ -2628,13 +2360,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2644,13 +2373,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e93e312e728ff2fd1d8",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2664,12 +2395,7 @@
     {
       "id": "685b8e9ce312e728ff2fd1de",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Olympic running icons! 🏃🏽‍♂️ Arthur Wint vs Steven Gardiner | Then & now | Men 400m",
-          "language": "en"
-        }
-      ],
+      "title": "Olympic running icons! 🏃🏽‍♂️ Arthur Wint vs Steven Gardiner | Then & now | Men 400m",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nIn 1948, Arthur Wint won the 400m at the London",
@@ -2687,13 +2413,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2703,13 +2426,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e9ce312e728ff2fd1de",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2723,12 +2448,7 @@
     {
       "id": "685b8e65e312e728ff2fd1b7",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Nadia Comăneci - Superstars of Then and Now | Greats on Greats",
-          "language": "en"
-        }
-      ],
+      "title": "Nadia Comăneci - Superstars of Then and Now | Greats on Greats",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\n Gymnastics legend Nadia Comăneci profiles some",
@@ -2746,13 +2466,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2762,13 +2479,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e65e312e728ff2fd1b7",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2782,12 +2501,7 @@
     {
       "id": "685b8e9fe312e728ff2fd1e1",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Lee Yang & Wang Chi-lin - Men's Doubles Badminton | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Lee Yang & Wang Chi-lin - Men's Doubles Badminton | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nLee Yang and Wang Chi-lin are Taiwanese badmint",
@@ -2805,13 +2519,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2821,13 +2532,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e9fe312e728ff2fd1e1",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2841,12 +2554,7 @@
     {
       "id": "685b8e31e312e728ff2fd190",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Malaika Mihambo - Women's Long Jump | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Malaika Mihambo - Women's Long Jump | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nMalaika Mihambo, the reigning champion in the W",
@@ -2864,13 +2572,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2880,13 +2585,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e31e312e728ff2fd190",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
@@ -2900,12 +2607,7 @@
     {
       "id": "685b8e1ae312e728ff2fd17e",
       "type": "shortform",
-      "titles": [
-        {
-          "value": "Lu Yunxiu - Women's Sailboard - RS:X | Reigning Champions",
-          "language": "en"
-        }
-      ],
+      "title": "Lu Yunxiu - Women's Sailboard - RS:X | Reigning Champions",
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nLu Yunxiu is a Chinese windsurfer who is the re",
@@ -2923,13 +2625,10 @@
         }
       ],
       "releaseDate": "2025-06-25",
-      "genres": [],
-      "advisoryRatings": [
-        {
-          "source": "USA_PR",
-          "value": "TV14"
-        }
+      "genres": [
+        "Uncategorized"
       ],
+      "advisoryRatings": [],
       "images": [
         {
           "type": "main",
@@ -2939,13 +2638,15 @@
           ]
         }
       ],
-      "durationInSeconds": 0,
+      "durationInSeconds": 60,
       "content": {
         "playOptions": [
           {
             "license": "free",
             "quality": "hd",
             "playId": "685b8e1ae312e728ff2fd17e",
+            "availabilityStart": "2025-01-01T00:00:00Z",
+            "availabilityEnd": "2030-01-01T00:00:00Z",
             "availabilityInfo": {
               "country": [
                 "us",
