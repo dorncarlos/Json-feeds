@@ -1,0 +1,26 @@
+{
+  "name": "airtable-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateRokuFeed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorncarlos/Json-feeds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dorncarlos/Json-feeds/issues"
+  },
+  "homepage": "https://github.com/dorncarlos/Json-feeds#readme",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3"
+  }
+}
