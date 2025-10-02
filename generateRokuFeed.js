@@ -6,10 +6,10 @@ require("dotenv").config();
 const base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base("appM9WlWxrWZwSu5j");
 
 // Table name in Airtable
-const TABLE_NAME = "Live Olympics TV";
+const TABLE_NAME = "IndiMusic TV";
 
 // Roku feed output file
-const OUTPUT_FILE = "Live_Olympics_TV_feed.json";
+const OUTPUT_FILE = "IndiMusic TV_feed.json";
 
 // Map Airtable contentRating → Roku advisory rating
 const ratingMap = {
@@ -41,56 +41,49 @@ async function generateRokuFeed() {
         });
       }
 
-      // FIX: Add genres - use "Sports" for Olympic content
-      const genres = ["Sports"];
-      
-      // FIX: Set realistic duration (minimum 60 seconds)
-      const durationInSeconds = fields.durationInSeconds && fields.durationInSeconds >= 60 
-        ? fields.durationInSeconds 
-        : 300; // 5 minutes default
-
       return {
         id: fields.video_id || "",
         type: "movie",
         titles: [
           {
             value: fields.video_title || "",
-            languages: ["en"] // FIX: Changed to languages array (not deprecated)
+            languages: ["en"]
           }
         ],
         shortDescriptions: [
           {
             value: fields.video_description || "",
-            languages: ["en"] // FIX: Changed to languages array (not deprecated)
+            languages: ["en"]
           }
         ],
         longDescriptions: [
           {
             value: fields.long_description || "",
-            languages: ["en"] // FIX: Changed to languages array (not deprecated)
+            languages: ["en"]
           }
         ],
         releaseDate: fields.releaseDate || "",
-        genres: genres,
+        genres: ["Sports"],
         advisoryRatings,
         images: fields.thumbnail_url
           ? [
               {
-                type: "main", // FIX: Using "main" as required by schema
+                type: "main",
                 url: fields.thumbnail_url,
-                languages: ["en"] // FIX: Changed to languages array (not deprecated)
+                languages: ["en"]
               }
             ]
           : [],
-        durationInSeconds: durationInSeconds,
+        durationInSeconds: fields.durationInSeconds || 300,
         content: {
           playOptions: [
             {
               license: "free",
               quality: "hd",
               playId: fields.video_id || "",
+              // FIX: Move availabilityStartTime to playOption level
+              availabilityStartTime: "2020-01-01T00:00:00Z",
               availabilityInfo: {
-                availabilityStartTime: "2024-01-01T00:00:00Z", // FIX: Added required field
                 country: ["us", "mx"]
               }
             }
@@ -101,7 +94,7 @@ async function generateRokuFeed() {
 
     const feed = {
       version: "1",
-      defaultLanguage: "en", // This is still required at feed level
+      defaultLanguage: "en",
       defaultAvailabilityCountries: ["us", "mx"],
       assets
     };
