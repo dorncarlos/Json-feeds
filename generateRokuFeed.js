@@ -53,13 +53,13 @@ async function generateRokuFeed() {
         shortDescriptions: [
           {
             value: fields.video_description || "",
-            languages: ["en"]
+            language: ["en"]
           }
         ],
         longDescriptions: [
           {
             value: fields.long_description || "",
-            languages: ["en"]
+            language: ["en"]
           }
         ],
         releaseDate: fields.releaseDate || "",
@@ -70,7 +70,7 @@ async function generateRokuFeed() {
               {
                 type: "main",
                 url: fields.thumbnail_url,
-                languages: ["en"]
+                language: ["en"]
               }
             ]
           : [],
