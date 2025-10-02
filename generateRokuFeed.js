@@ -9,7 +9,7 @@ const base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base("appM9WlW
 const TABLE_NAME = "Live Olympics TV";
 
 // Roku feed output file
-const OUTPUT_FILE = "LiveOlympics_feed.json";
+const OUTPUT_FILE = "roku_feed.json";
 
 // Map Airtable contentRating → Roku advisory rating
 const ratingMap = {
@@ -32,80 +32,67 @@ async function generateRokuFeed() {
     const assets = records.map((record) => {
       const fields = record.fields;
 
-      // Ensure descriptions are different
-      let shortDesc = fields.video_description || "";
-      let longDesc = fields.long_description || "";
-      if (longDesc === shortDesc) {
-        longDesc = shortDesc + " Learn more about this program.";
-      }
-
-      // Handle advisory rating mapping
+      // Advisory Ratings
       let advisoryRatings = [];
-      if (fields.ageRating && ratingMap[fields.ageRating]) {
+      if (fields.contentRating && ratingMap[fields.contentRating]) {
         advisoryRatings.push({
           source: "USA_PR",
-          value: ratingMap[fields.ageRating]
+          value: ratingMap[fields.contentRating]
         });
       }
 
-      // Default duration (must be >= 60 sec for Roku validation)
-      const duration = fields.durationInSeconds && fields.durationInSeconds > 60 
-        ? fields.durationInSeconds 
-        : 60;
-
-      // Ensure at least one image
-      const images = [];
-      if (fields.thumbnail_url) {
-        images.push({
-          type: "main",
-          url: fields.thumbnail_url,
-          languages: ["en"]
-        });
-      }
-      if (fields.portrait_thumbnail?.[0]?.url) {
-        images.push({
-          type: "poster",
-          url: fields.portrait_thumbnail[0].url,
-          languages: ["en"]
-        });
-      }
-      if (images.length === 0) {
-        images.push({
-          type: "main",
-          url: "https://via.placeholder.com/800x450.png?text=No+Image",
-          languages: ["en"]
-        });
+      // Genres (expects array or single value)
+      let genres = [];
+      if (fields.genres) {
+        if (Array.isArray(fields.genres)) {
+          genres = fields.genres.map((g) => g.trim());
+        } else if (typeof fields.genres === "string") {
+          genres = [fields.genres.trim()];
+        }
       }
 
-      return {
+      // Build asset object
+      const asset = {
         id: fields.video_id || "",
-        type: "shortform",
-        title: fields.video_title || "",
+        type: fields.isLiveStream ? "live" : "shortform",
+        titles: [
+          {
+            value: fields.video_title || "",
+            language: "en"
+          }
+        ],
         shortDescriptions: [
           {
-            value: shortDesc,
+            value: fields.video_description || "",
             languages: ["en"]
           }
         ],
         longDescriptions: [
           {
-            value: longDesc,
+            value: fields.long_description || "",
             languages: ["en"]
           }
         ],
-        releaseDate: fields.releaseDate || new Date().toISOString(),
-        genres: fields.genres ? [fields.genres] : ["Uncategorized"],
+        releaseDate: fields.releaseDate || "",
+        genres,
         advisoryRatings,
-        images,
-        durationInSeconds: duration,
+        images: fields.thumbnail_url
+          ? [
+              {
+                type: "landscape",
+                url: fields.thumbnail_url,
+                languages: ["en"]
+              }
+            ]
+          : [],
         content: {
           playOptions: [
             {
               license: "free",
               quality: "hd",
+              videoType: "HLS", // Roku prefers HLS
               playId: fields.video_id || "",
-              availabilityStart: "2025-01-01T00:00:00Z",
-              availabilityEnd: "2030-01-01T00:00:00Z",
+              url: fields.stream_url || "",
               availabilityInfo: {
                 country: ["us", "mx"]
               }
@@ -113,18 +100,24 @@ async function generateRokuFeed() {
           ]
         }
       };
+
+      // Only include duration for VOD (not live)
+      if (!fields.isLiveStream) {
+        asset.durationInSeconds = fields.durationInSeconds || 0;
+      }
+
+      return asset;
     });
 
     const feed = {
-      version: "1",
-      providerName: "Todazon",
+      version: "1.0",
       defaultLanguage: "en",
       defaultAvailabilityCountries: ["us", "mx"],
       assets
     };
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(feed, null, 2));
-    console.log(`✅ Roku feed generated successfully: ${OUTPUT_FILE}`);
+    console.log(`✅ Roku feed generated: ${OUTPUT_FILE}`);
   } catch (error) {
     console.error("❌ Error generating Roku feed:", error.message);
   }

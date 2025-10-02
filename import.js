@@ -20,38 +20,58 @@ async function importData() {
     console.log(`📦 Found ${data.length} videos to import`);
 
     for (const videoData of data) {
-      await base("Live Olympics TV").create({
-        video_id: videoData._id || "",
-        video_title: videoData.title || "",
-        video_description: videoData.shortDescription || "",
-        long_description: videoData.longDescription || "",
+      // build fields dynamically and skip empty ones
+      const fields = {
+        video_id: videoData._id || undefined,
+        video_title: videoData.title || undefined,
+        video_description: videoData.shortDescription || undefined,
+        long_description: videoData.longDescription || undefined,
         releaseDate: videoData.createdAt
-       ? new Date(videoData.createdAt).toISOString().split("T")[0]
-       : null,
+          ? new Date(videoData.createdAt).toISOString().split("T")[0]
+          : undefined,
 
-        durationInSeconds: parseInt(videoData.duration) || 0,
-        isLiveStream: !!videoData.isLiveStream,
-        contentRating: videoData.ageRating || "",
+        durationInSeconds: videoData.isLiveStream
+          ? undefined // skip duration if live
+          : parseInt(videoData.duration) || undefined,
 
+        isLiveStream: videoData.isLiveStream || false,
+        contentRating: videoData.ageRating || undefined,
+
+        // Handle type as plain text
+        type: videoData.type ? String(videoData.type) : undefined,
+
+        // Genres as comma-separated text
+        genre: Array.isArray(videoData.genre) && videoData.genres.length > 0
+          ? videoData.genres.map(g => g.name).join(", ")
+          : undefined,
+
+        // Images
         thumbnail_upload: videoData.landscapeThumbnail?.url
           ? [{ url: videoData.landscapeThumbnail.url }]
           : [],
-        thumbnail_url: videoData.landscapeThumbnail?.url || "",
+        thumbnail_url: videoData.landscapeThumbnail?.url || undefined,
 
         portrait_thumbnail: videoData.verticalThumbnail?.url
           ? [{ url: videoData.verticalThumbnail.url }]
           : [],
 
         // Stream link
-        stream_url: videoData.file?.url || "",
-      });
+        stream_url: videoData.file?.url || undefined,
+      };
 
-      console.log(`Added: ${videoData.title}`);
+      // Remove any undefined values so Airtable doesn’t reject them
+      Object.keys(fields).forEach(
+        (key) => fields[key] === undefined && delete fields[key]
+      );
+
+      await base("Live Olympics TV").create(fields);
+
+      console.log(`✅ Added: ${videoData.title}`);
     }
 
-    console.log("Import complete!");
+    console.log("🎉 Import complete!");
   } catch (error) {
-    console.error("Error importing data:", error.response?.data || error.message);
+    console.error("❌ Error importing data:", error.response?.data || error.message);
   }
 }
 
