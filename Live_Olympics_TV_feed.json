@@ -12,19 +12,25 @@
       "titles": [
         {
           "value": "Team GB🥇🇬🇧 Mixed Relay Triathlon | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nEnjoy the victory of Team GB 🥇🇬🇧 in the Mixed Relay Triathlon, reigning champions of Tokyo 2020. Jessica Learmonth, Jonny Brownlee, Georgia Taylor-Brown, and Alex Yee made histor",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -39,9 +45,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recx9h1cqiFfbjzdi/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -52,7 +60,7 @@
             "quality": "hd",
             "playId": "685b8ecce312e728ff2fd202",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -68,19 +76,25 @@
       "titles": [
         {
           "value": "Danish Masterclass! 🇩🇰🏸 Men's Badminton Reigning Champions🥇",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nViktor Axelsen, the Danish badminton sensation, etched his name into Olympic history with a dazzling performance at the Tokyo 2020 Olympics. 🏸\n\nAfter a long way to the Gold Medal h",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -95,9 +109,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recUEcsYT7NCdlwK4/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -108,7 +124,7 @@
             "quality": "hd",
             "playId": "685b8e62e312e728ff2fd1b4",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -124,19 +140,25 @@
       "titles": [
         {
           "value": "1928 Canada 🆚 2020 Jamaica - 4x 100m Relay | Then vs. Now",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nTake a look back in time and compare the 4x100 ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nTake a look back in time and compare the 4x100 meter relay at the 1928 Olympics to the relay at the 2020 games. The technology, training and style have greatly improved but the excitement and the competition remains the same. See how far the sport",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -151,9 +173,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recTsdPmUwjtqIGZ2/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -164,7 +188,7 @@
             "quality": "hd",
             "playId": "685b8e5ee312e728ff2fd1b1",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -180,19 +204,25 @@
       "titles": [
         {
           "value": "Lee Yang & Wang Chi-lin - Men's Doubles Badminton | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nLee Yang and Wang Chi-lin are Taiwanese badmint",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nLee Yang and Wang Chi-lin are Taiwanese badminton players who competed in the Men's Doubles event at the Tokyo 2020 Olympics. They displayed exceptional skill and teamwork throughout the tournament, capturing the attention of badminton enthusiasts",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -207,9 +237,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recjPX735pU8ww4r3/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -220,7 +252,7 @@
             "quality": "hd",
             "playId": "685b8e9fe312e728ff2fd1e1",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -236,19 +268,25 @@
       "titles": [
         {
           "value": "Alexandra Klineman & April Ross 🏐🥇 Women's Beach Volleyball | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nWatch the power duo, Ross and Klineman 🇺🇸, take the final stand against the Aussie contenders to snatch the gold at Tokyo 2020! Catch the action that crowned them champions! \n#Tok",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -263,9 +301,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recReVvwCpFNKB4WA/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -276,7 +316,7 @@
             "quality": "hd",
             "playId": "685b8e59e312e728ff2fd1ae",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -292,19 +332,25 @@
       "titles": [
         {
           "value": "Team USA 🥇🇺🇸 Men's Basketball | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nThe fourth gold medal in a row! Team USA has been the big favorite for the title at the Olympic Games for years. 😎🇺🇸\nThe team also secured the gold medal in Tokyo, despite the di",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -319,9 +365,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recYR269SoWNpaNPv/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -332,7 +380,7 @@
             "quality": "hd",
             "playId": "685b8e76e312e728ff2fd1c3",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -348,19 +396,25 @@
       "titles": [
         {
           "value": "Malaika Mihambo - Women's Long Jump | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nMalaika Mihambo, the reigning champion in the W",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nMalaika Mihambo, the reigning champion in the Women's Long Jump, claimed the gold medal for Germany at the Tokyo 2020 Olympic Games. In a closely contested final, Mihambo secured victory with a remarkable last-round leap of 7.00 meters, the only s",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -375,9 +429,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recCRAY8rmAZM5ZJ0/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -388,7 +444,7 @@
             "quality": "hd",
             "playId": "685b8e31e312e728ff2fd190",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -404,19 +460,25 @@
       "titles": [
         {
           "value": "👀 Evolution of Men's Long Jump at the Olympics! | Then and Now",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nThe men's long jump has been a staple in the Olympic athletics program since the start of the Summer Olympics in 1896. At the Stockholm 1912 Olympics, thirty long jumpers from thirt",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -431,9 +493,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recCJ1p9MRndrCGwE/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -444,7 +508,7 @@
             "quality": "hd",
             "playId": "685b8e2ee312e728ff2fd18d",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -460,19 +524,25 @@
       "titles": [
         {
           "value": "Team GB - Mixed 4x100m Medley Relay | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nTeam GB made an unforgettable mark in Olympic h",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nTeam GB made an unforgettable mark in Olympic history with their performance in the inaugural mixed 4x100m medley relay at the Tokyo Aquatics Centre. The team, comprising Kathleen Dawson, Adam Peaty, James Guy, and Anna Hopkin, delivered an except",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -487,9 +557,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recxxXFXmQ5UkYRJ0/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -500,7 +572,7 @@
             "quality": "hd",
             "playId": "685b8ed3e312e728ff2fd208",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -516,19 +588,25 @@
       "titles": [
         {
           "value": "28 years later ... 🏸  | Men's badminton Then and Now!",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nThe 1992 Summer Olympics, which took place in Barcelona, Spain, were a significant moment for the sport of badminton. It was the first time that badminton was officially recognized ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -543,9 +621,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recOzRYNjMCEMES6j/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -556,7 +636,7 @@
             "quality": "hd",
             "playId": "685b8e56e312e728ff2fd1ab",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -572,19 +652,25 @@
       "titles": [
         {
           "value": "Lu Yunxiu - Women's Sailboard - RS:X | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nLu Yunxiu is a Chinese windsurfer who is the re",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nLu Yunxiu is a Chinese windsurfer who is the reigning Olympic champion in the women's Sailboard RS:X event. She won gold at the Tokyo 2020 Olympics.\n\nIn this video, we take a look back on Lu Yunxiu's amazing journey as she takes on the women's Sai",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -599,9 +685,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rec0WdQNqNgNGvkHD/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -612,7 +700,7 @@
             "quality": "hd",
             "playId": "685b8e1ae312e728ff2fd17e",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -628,19 +716,25 @@
       "titles": [
         {
           "value": "They had to check who won!? 🤯 | Down To The Wire",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nTwin rowers from New Zealand, Caroline and Georgina Evers-Swindell, had narrowly missed the qualification for the Sydney 2000 Olympics in the double sculls. But they went on to qual",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -655,9 +749,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/reci0udWpJ20y1pHq/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -668,7 +764,7 @@
             "quality": "hd",
             "playId": "685b8e97e312e728ff2fd1db",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -684,19 +780,25 @@
       "titles": [
         {
           "value": "Tokyo 2020 Women's Water Polo Champs🥇Team USA🇺🇸 | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nThe United States women's national team is considered the most successful in water polo. At the Olympic Games, the team won three gold medals, two silver medals and one bronze medal",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -711,9 +813,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recY4th3ahqps8CXB/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -724,7 +828,7 @@
             "quality": "hd",
             "playId": "685b8e6de312e728ff2fd1bd",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -740,19 +844,25 @@
       "titles": [
         {
           "value": "Chen Yu Fei wins the Gold Medal! 🏸🔥 Women's Badminton Singles Final 🥇 Full Match!",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nChina’s CHEN Yu Fei beat world number one Chinese Taipei’s TAI Tzu-Ying in a thrilling two sets to one final of the women’s badminton singles at Tokyo 2020.\n\nThe top two seeds fough",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -767,9 +877,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recJsEDE2XcO93KzH/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -780,7 +892,7 @@
             "quality": "hd",
             "playId": "685b8e42e312e728ff2fd19c",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -796,19 +908,25 @@
       "titles": [
         {
           "value": "Neeraj Chopra 🇮🇳 wins India's First Track and Field Olympic Gold 🥇 | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nWitness history as Neeraj Chopra secures India's first track and field Olympic gold at Tokyo 2020! Celebrate India's second individual Olympic gold since Beijing 2008. 🥇🇮🇳 #Neera",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -823,9 +941,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recgm0pYKd8FtJ3Fu/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -836,7 +956,7 @@
             "quality": "hd",
             "playId": "685b8e93e312e728ff2fd1d8",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -852,19 +972,25 @@
       "titles": [
         {
           "value": "The fascination of high diving! Women's jumps from the 10 meter tower 🤯💦",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe sport made its debut in St. Louis back in 1",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe sport made its debut in St. Louis back in 1904 and has been an integral part of the program ever since. Four years later, artistic diving from the 3-meter board followed, with athletes performing acrobatics in the air with elegance and precisi",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -879,9 +1005,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recpFuGi0zWmfXJ5Q/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -892,7 +1020,7 @@
             "quality": "hd",
             "playId": "685b8eb4e312e728ff2fd1f0",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -908,19 +1036,25 @@
       "titles": [
         {
           "value": "Women's 100 m butterfly Margaret Mac Neil🥇| Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nMargaret Mac Neil soared to victory in the Women's 100m butterfly at Tokyo 2020, claiming the gold medal with unmatched speed and grace. 🥇\n\nHer flawless technique and unwavering fo",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -935,9 +1069,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recpHuYIL3LQylKNf/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -948,7 +1084,7 @@
             "quality": "hd",
             "playId": "685b8eb8e312e728ff2fd1f3",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -964,19 +1100,25 @@
       "titles": [
         {
           "value": "🏊🏼‍♀️ 17-year-old Lydia Jacoby! 🇺🇸 | Women's 100m breaststroke | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nHistory was made with every stroke. 🏊‍♀️\n\n17-year-old Alaskan native Lydia Jacoby stunned the world by securing Team USA's first Olympic gold in swimming at #Tokyo2020.\n\nDespite he",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -991,9 +1133,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recwv0HKlhb8N9UNW/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1004,7 +1148,7 @@
             "quality": "hd",
             "playId": "685b8ec8e312e728ff2fd1ff",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1020,19 +1164,25 @@
       "titles": [
         {
           "value": "Lamont Marcell Jacobs - Men's 100m | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nReigning Champion 🤩\n\nLamont Marcell Jacobs' wi",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nReigning Champion 🤩\n\nLamont Marcell Jacobs' win in the men's 100m final at Tokyo2020 was the first for a European athlete in 25 years. Relive this moment!\n\n_____________________________________________________\n🇨🇳 #Beijing2022 replays: https://o",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1047,9 +1197,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recYXZpom6tRW9hun/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1060,7 +1212,7 @@
             "quality": "hd",
             "playId": "685b8e79e312e728ff2fd1c6",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1076,19 +1228,25 @@
       "titles": [
         {
           "value": "Emma McKeon's historic 50m freestyle Olympic triumph! 🏅🇦🇺 | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nEmma McKeon seized four gold medals at Tokyo 2020, dominating the 50m and 100m freestyle and securing triumphant relay wins in the 4x100m free (with a smashing the World Record!) an",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1103,9 +1261,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recM9eWUSPsuoh1cr/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1116,7 +1276,7 @@
             "quality": "hd",
             "playId": "685b8e4ee312e728ff2fd1a5",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1132,19 +1292,25 @@
       "titles": [
         {
           "value": "One of the greatest: Carl Lewis' long jump successes 🤩",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nCarl Lewis is an American former track and field athlete. He is one of the most successful track and field athletes in the history of sport. He set several world records and dominat",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1159,9 +1325,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rec0CPx8F7D12SHr7/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1172,7 +1340,7 @@
             "quality": "hd",
             "playId": "685b8e15e312e728ff2fd17b",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1188,19 +1356,25 @@
       "titles": [
         {
           "value": "Kristian Blummenfelt - Men's Triathlon | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nKristian Blummenfelt is an accomplished Norwegi",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nKristian Blummenfelt is an accomplished Norwegian triathlete with multiple national championships and remarkable achievements. He became the world champion in long-distance triathlon in 2021 and in middle-distance triathlon in 2022. His most notab",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1215,9 +1389,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recsutQk0EEYq0Azv/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1228,7 +1404,7 @@
             "quality": "hd",
             "playId": "685b8ebce312e728ff2fd1f6",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1244,19 +1420,25 @@
       "titles": [
         {
           "value": "Yui Ohashi beats them all! 🔥| Women's 400m individual medley | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nWatch the highlights of the 400m Women's indivi",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nWatch the highlights of the 400m Women's individual medley at Tokyo 2020. 🏊‍♀️ Enjoy the close race in full length and see how the Japanese athlete Yui Ohashi (4:32.08) 🇯🇵 finishes in front of US swimmers Emma Weyant (4:32.76) 🇺🇸 and Hali Fli",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1271,9 +1453,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recbMrLBNrnuct4Z5/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1284,7 +1468,7 @@
             "quality": "hd",
             "playId": "685b8e81e312e728ff2fd1cc",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1300,19 +1484,25 @@
       "titles": [
         {
           "value": "Joe Choong - Men's Modern Pentathlon | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nJoseph Choong, a British modern pentathlete, wo",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nJoseph Choong, a British modern pentathlete, won the gold medal at the Tokyo 2020 Olympic Games. This was a historic moment for Team GB as Choong became the first British man to win an Olympic gold medal in modern pentathlon since the event's intr",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1327,9 +1517,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recNPrLzkTK6Vp1gk/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1340,7 +1532,7 @@
             "quality": "hd",
             "playId": "685b8e52e312e728ff2fd1a8",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1356,19 +1548,25 @@
       "titles": [
         {
           "value": "Women Track Cycling Sprint 🥇Kelsey Mitchell | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nKelsey Mitchell's 🇨🇦 journey to Olympic gold in Women's Track Cycling Sprint. 🥇🇨🇦 Despite the disruption caused by the pandemic, Mitchell continued her rigorous training in Mil",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1383,9 +1581,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recXXI3FOH2jEaMRp/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1396,7 +1596,7 @@
             "quality": "hd",
             "playId": "685b8e6ae312e728ff2fd1ba",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1412,19 +1612,25 @@
       "titles": [
         {
           "value": "Women's 400 m hurdles Sydney McLaughlin-Levrone 🇺🇸🥇| Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📺 Watch all the #Paris2024 action LIVE! ➡️ https://go.olympics.com/watch \n\nMcLaughlin beat her own ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📺 Watch all the #Paris2024 action LIVE! ➡️ https://go.olympics.com/watch \n\nMcLaughlin beat her own world record, which she had set just a few weeks earlier, by 0.44 seconds in the final heat of her discipline at the 2021 Olympic Games. She crossed the finish line ahead of Dalilah Muhammad, who also",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1439,9 +1645,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/reczh98pHLIwM5mfV/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1452,7 +1660,7 @@
             "quality": "hd",
             "playId": "685b8ed9e312e728ff2fd20b",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1468,19 +1676,25 @@
       "titles": [
         {
           "value": "Wrestling - 1912 🆚 2020 | Then and Now",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nEmbark on a journey through the evolution of Ol",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nEmbark on a journey through the evolution of Olympic wrestling. Explore the roots of wrestling in the early days of the modern Olympic Games and witness its transformation into the dynamic sport we know today. We bring you the fascinating sport of",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1495,9 +1709,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recxez2BtpKhtWllo/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1508,7 +1724,7 @@
             "quality": "hd",
             "playId": "685b8ed0e312e728ff2fd205",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1524,19 +1740,25 @@
       "titles": [
         {
           "value": "Win a ticket to watch an event with @Visa",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "The Paris 2024 megastore for all your Paris 2024 dreams. Don’t miss your chance to scratch and win a",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "The Paris 2024 megastore for all your Paris 2024 dreams. Don’t miss your chance to scratch and win a ticket to watch an event with Visa. Good luck!\n\n#Visa #Paris2024\n\n📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\n______________",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1551,9 +1773,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recwBYsYqQubpWAJ0/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1564,7 +1788,7 @@
             "quality": "hd",
             "playId": "685b8ec5e312e728ff2fd1fc",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1580,19 +1804,25 @@
       "titles": [
         {
           "value": "108 years later...  🥏 | Discus throw then & now!",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📺 Watch all the #Paris2024 action LIVE! ➡️ https://go.olympics.com/watch \n\n📲 Subscribe to @olympic",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📺 Watch all the #Paris2024 action LIVE! ➡️ https://go.olympics.com/watch \n\n📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nSweden's Daniel Ståhl became the third Scandinavian to win the Men's discus throw, claiming gold in Tokyo 2020 and over 108 years after Finland's Armas Taipale became the ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1607,9 +1837,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/reccx7FRovWly9uLl/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1620,7 +1852,7 @@
             "quality": "hd",
             "playId": "685b8e8be312e728ff2fd1d2",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1636,19 +1868,25 @@
       "titles": [
         {
           "value": "52! Years Later ... 🦋 | Women's 200m Butterfly Then and Now!",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nThe Women's 200m Butterfly discipline at the Olympics has witnessed a remarkable evolution over the span of 52 years, from the 1968 Mexico City Games to the 2020 Tokyo Games. 🦋\n\nTh",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1663,9 +1901,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/reclSq1mcCW4Dhygw/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1676,7 +1916,7 @@
             "quality": "hd",
             "playId": "685b8eabe312e728ff2fd1ea",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1692,19 +1932,25 @@
       "titles": [
         {
           "value": "🇨🇳 Chen Yufei: \"I'm very happy & it feels unreal\" 🏅 | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nChen Yufei is a Chinese badminton player. She started playing at international level in 2013 at the age of just 15. 🇨🇳 Chen participated in the 2020 Summer Olympics as the number ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1719,9 +1965,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recJIpzQoBiK1gQON/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1732,7 +1980,7 @@
             "quality": "hd",
             "playId": "685b8e3de312e728ff2fd199",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1748,19 +1996,25 @@
       "titles": [
         {
           "value": "400m Hurdles finals... 90 years apart! | Then & Now",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nWe bring you the 400m men's Hurdles finals from",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nWe bring you the 400m men's Hurdles finals from 1928 in Amsterdam, in comparison to the men's final 2020 in Tokyo. In 1928, the winner was the British athlete Lord David Burghley with a time of 53.4 seconds. The Olympic Champion in 2021, at the Ol",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1775,9 +2029,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recYCFOnkQFOFkRYY/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1788,7 +2044,7 @@
             "quality": "hd",
             "playId": "685b8e72e312e728ff2fd1c0",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1804,19 +2060,25 @@
       "titles": [
         {
           "value": "Sifan Hassan - Women's 5,000m | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nSifan Hassan is a true force to be reckoned wit",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nSifan Hassan is a true force to be reckoned with in the world of athletics, and her remarkable achievements have firmly established her as one of the most dominant distance runners of her time. As the reigning Olympic champion in the women's 5000m",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1831,9 +2093,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recZk4f12ORZJvmFz/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1844,7 +2108,7 @@
             "quality": "hd",
             "playId": "685b8e7ee312e728ff2fd1c9",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1860,19 +2124,25 @@
       "titles": [
         {
           "value": "Women's 200m - 1948 🆚 2020 | Then and Now",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nStep back in time and witness the remarkable ev",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nStep back in time and witness the remarkable evolution of women's sprinting in the 200m event! In this captivating video, we embark on a journey comparing the women's 200m race from the London 1948 Olympics to the present-day Tokyo 2020 Olympics.\n",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1887,9 +2157,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recd1lczzPreB37M7/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1900,7 +2172,7 @@
             "quality": "hd",
             "playId": "685b8e90e312e728ff2fd1d5",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1916,19 +2188,25 @@
       "titles": [
         {
           "value": "Team Belgium - Men's Hockey | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe Belgian Men's Hockey team achieved a histor",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe Belgian Men's Hockey team achieved a historic victory at the Tokyo 2020 Olympics, emerging as the Olympic champions in the men's hockey competition. They secured the gold medal after a thrilling shootout against Australia in the final match.\n\n",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1943,9 +2221,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recD1VsjRGib6A16h/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -1956,7 +2236,7 @@
             "quality": "hd",
             "playId": "685b8e36e312e728ff2fd193",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -1972,19 +2252,25 @@
       "titles": [
         {
           "value": "What a Performance! 🔥 Nina Darwael 🇧🇪 Women's Uneven Bars 🥇 | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nNina Darwell's unforgettable gold medal triumph on Women's Uneven Bars at #Tokyo2020! 🥇 Having clinched her Olympic quota at the Baku World Cup, get ready to witness more of her as",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -1999,9 +2285,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recjvajNAPVxgasoe/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2012,7 +2300,7 @@
             "quality": "hd",
             "playId": "685b8ea4e312e728ff2fd1e4",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2028,19 +2316,25 @@
       "titles": [
         {
           "value": "Olympic running icons! 🏃🏽‍♂️ Arthur Wint vs Steven Gardiner | Then & now | Men 400m",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nIn 1948, Arthur Wint won the 400m at the London",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nIn 1948, Arthur Wint won the 400m at the London Olympics for Jamaica. It took him 46.20 seconds.  In Tokyo 2020, Steven Gardiner achieved a record-breaking victory in the same event, symbolizing the evolution of athletics He was almost 3 seconds f",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2055,9 +2349,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/reciV58YND18RHkIn/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2068,7 +2364,7 @@
             "quality": "hd",
             "playId": "685b8e9ce312e728ff2fd1de",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2084,19 +2380,25 @@
       "titles": [
         {
           "value": "Jakob Ingebrigtsen - Men's 1,500m | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nJakob Ingebrigtsen, the Norwegian middle-distan",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nJakob Ingebrigtsen, the Norwegian middle-distance runner, made history at the Tokyo 2020 Olympics by winning the men's 1500m final and setting a new Olympic record. Ingebrigtsen finished the race in a time of 3:28.32, beating the previous record o",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2111,9 +2413,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recH1TNCvmz3NJpPG/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2124,7 +2428,7 @@
             "quality": "hd",
             "playId": "685b8e3ae312e728ff2fd196",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2140,19 +2444,25 @@
       "titles": [
         {
           "value": "88 Years later... 🤯 | Women's Javelin Then and Now!",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nThe perfection of the technique behind the Javelin over the past decades is outstanding! The javelin throw was already part of the Olympic Games in ancient times and was first inclu",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2167,9 +2477,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rec2NPxPuCj4BisHd/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2180,7 +2492,7 @@
             "quality": "hd",
             "playId": "685b8e1de312e728ff2fd181",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2196,19 +2508,25 @@
       "titles": [
         {
           "value": "Zhu Xueying - Women's Trampoline | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "For more artistic gymnastics videos, subscribe to our dedicated Olympics Gymnastics channel: https:/",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "For more artistic gymnastics videos, subscribe to our dedicated Olympics Gymnastics channel: https://oly.ch/OlympicsGymnastics\n\nZhu Xueying has won just about every title there is in Women's Trampoline, starting all the way back in 2014 with a gold medal at the 2014 Youth Olympic Games held in her n",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2223,9 +2541,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recKIYUu0BuduaEqQ/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2236,7 +2556,7 @@
             "quality": "hd",
             "playId": "685b8e45e312e728ff2fd19f",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2252,19 +2572,25 @@
       "titles": [
         {
           "value": "New Zealand - Women's Rugby 7s | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nOn July 31st, 2021, the women's rugby 7s final ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nOn July 31st, 2021, the women's rugby 7s final took place at the Tokyo Stadium at the Tokyo 2020 Olympic Games. New Zealand managed to beat France by 26-12 to crown themselves Olympic champions!\n\nIt was a dominant performance of team New Zealand, ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2279,9 +2605,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rectxJmtukItnWzJt/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2292,7 +2620,7 @@
             "quality": "hd",
             "playId": "685b8ebfe312e728ff2fd1f9",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2308,19 +2636,25 @@
       "titles": [
         {
           "value": "Nadia Comăneci - Superstars of Then and Now | Greats on Greats",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\n Gymnastics legend Nadia Comăneci profiles some",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\n Gymnastics legend Nadia Comăneci profiles some of her favourite gymnasts from the past and the present day, including Ludmilla Tourischeva, Aliya Mustafina, Simone Biles and Larisa Iordache. \n_____________________________________________________\n",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2335,9 +2669,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recUd3fhjWacOUTJc/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2348,7 +2684,7 @@
             "quality": "hd",
             "playId": "685b8e65e312e728ff2fd1b7",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2364,19 +2700,25 @@
       "titles": [
         {
           "value": "🏃🏻‍♀️ 36 Years of Women's Marathon! | Then and Now",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nLet's take a look at the evolution of the Women's Marathon from its debut in Los Angeles 1984 to the Tokyo 2020 Olympics. In 1984, the event had only 50 participants from 28 countri",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2391,9 +2733,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/reccTuV8dYkMjUqQn/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2404,7 +2748,7 @@
             "quality": "hd",
             "playId": "685b8e87e312e728ff2fd1cf",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2420,19 +2764,25 @@
       "titles": [
         {
           "value": "Greysia Polii & Apriyani Rahayu - Women's Doubles Badminton | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nIn this video, we will feature highlights from ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nIn this video, we will feature highlights from their winning matches of Greysia Polii and Apriyani Rahayu, the Indonesian badminton duo that captured the gold medal in women's doubles at the Tokyo 2020 Olympics. Showcasing their incredible teamwor",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2447,9 +2797,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rec0B32nxAkwOMroj/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2460,7 +2812,7 @@
             "quality": "hd",
             "playId": "685b8e12e312e728ff2fd178",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2476,19 +2828,25 @@
       "titles": [
         {
           "value": "Ahmed Hafnaoui - Men's 400m freestyle | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nAhmed Hafnaoui, a talented swimmer from Tunisia",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nAhmed Hafnaoui, a talented swimmer from Tunisia, achieved a remarkable victory in the Men's 400m freestyle swimming final at the Tokyo 2020 Olympics. Competing against strong opponents, Hafnaoui defied expectations and claimed the gold medal in th",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2503,9 +2861,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recni0f80f5aGyruC/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2516,7 +2876,7 @@
             "quality": "hd",
             "playId": "685b8eb0e312e728ff2fd1ed",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2532,19 +2892,25 @@
       "titles": [
         {
           "value": "💪 The Transformation of Hammer Throw 1️⃣0️⃣8️⃣ Years of Progress! | Then and Now",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Want to watch live sport and original documentaries for free? Check out our website: https://oly.ch/WatchLiveSport\n\nExplore the evolution of hammer throwing across 108 years! In 1912, Matthew McGrath 🇺🇸 claimed victory at the Stockholm Olympics with a distance of 54.74 meters. His dominance was",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2559,9 +2925,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rec3tWIEJY19A9Iwl/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2572,7 +2940,7 @@
             "quality": "hd",
             "playId": "685b8e29e312e728ff2fd18a",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2588,19 +2956,25 @@
       "titles": [
         {
           "value": "Team USA - Women's 4x400m | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe reigning Olympic champions in the women's 4",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe reigning Olympic champions in the women's 4x400m track and field event are the United States. The team, consisting of Allyson Felix, Sydney McLaughlin, Dalilah Muhammad, and Athing Mu, won the gold medal at the Tokyo Olympics in 2021. They clo",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2615,9 +2989,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rec3V7PvWjbskfXhR/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2628,7 +3004,7 @@
             "quality": "hd",
             "playId": "685b8e26e312e728ff2fd187",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2644,19 +3020,25 @@
       "titles": [
         {
           "value": "Beth Shriever - Women's BMX racing | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "All the latest BMX news, videos and more:https://oly.ch/YTBMX\n\nIn a highly contested final, it was T",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "All the latest BMX news, videos and more:https://oly.ch/YTBMX\n\nIn a highly contested final, it was Team GB's Beth Shriever who crossed the line ahead of Mariana Pajón of Colombia and Merel Smulders of the Netherlands. It was Great Britain's first medal in Women's BMX racing and Shriever would add a ",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2671,9 +3053,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/reckFvuAzEx4Y1Y1x/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2684,7 +3068,7 @@
             "quality": "hd",
             "playId": "685b8ea8e312e728ff2fd1e7",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2700,19 +3084,25 @@
       "titles": [
         {
           "value": "108 years later... 💦  | Diving 10m Platform then & now!",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe captivating world of Olympic diving from th",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nThe captivating world of Olympic diving from the 10m platform is brought to life as the performances from the 1912 Stockholm Games are compared to the stunning displays at the Tokyo 2020 Olympics. Transporting viewers across time, the footage juxt",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2727,9 +3117,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/recL2tIgq1IcOixgU/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2740,7 +3132,7 @@
             "quality": "hd",
             "playId": "685b8e4be312e728ff2fd1a2",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"
@@ -2756,19 +3148,25 @@
       "titles": [
         {
           "value": "Zhang Yufei - Women's 200 m butterfly | Reigning Champions",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "shortDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nZhang Yufei beams in delight on winning her sec",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "longDescriptions": [
         {
           "value": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\nZhang Yufei beams in delight on winning her second medal in the pool of the Tokyo 2020 Olympic Games, beating the American duo of Regan Smith and Hali Flickinger to silver and bronze, respectively. The Chinese went out fast in the women's 200m but",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "releaseDate": "2025-06-25",
@@ -2783,9 +3181,11 @@
       ],
       "images": [
         {
-          "type": "thumbnail",
+          "type": "main",
           "url": "https://cdn.castify.ai/files/video_libraries/lw/452/36/919/rec2YF9XWB0P9ZVSD/thumb_landscape.jpg",
-          "language": "en"
+          "languages": [
+            "en"
+          ]
         }
       ],
       "durationInSeconds": 300,
@@ -2796,7 +3196,7 @@
             "quality": "hd",
             "playId": "685b8e23e312e728ff2fd184",
             "availabilityInfo": {
-              "availabilityStartTime": "2000-01-01T00:00:00Z",
+              "availabilityStartTime": "2024-01-01T00:00:00Z",
               "country": [
                 "us",
                 "mx"

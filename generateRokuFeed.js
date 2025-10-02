@@ -41,42 +41,44 @@ async function generateRokuFeed() {
         });
       }
 
-      // Use default genre "Sports" if none provided
-      const genres = fields.genres && fields.genres.length > 0 ? fields.genres : ["Sports"];
-
-      // Set a default duration if not provided (5 minutes)
-      const durationInSeconds = fields.durationInSeconds || 300;
+      // FIX: Add genres - use "Sports" for Olympic content
+      const genres = ["Sports"];
+      
+      // FIX: Set realistic duration (minimum 60 seconds)
+      const durationInSeconds = fields.durationInSeconds && fields.durationInSeconds >= 60 
+        ? fields.durationInSeconds 
+        : 300; // 5 minutes default
 
       return {
         id: fields.video_id || "",
-        type: "movie", // Changed from "shortform" to "movie"
+        type: "movie",
         titles: [
           {
             value: fields.video_title || "",
-            language: "en" // Changed from deprecated structure
+            languages: ["en"] // FIX: Changed to languages array (not deprecated)
           }
         ],
         shortDescriptions: [
           {
             value: fields.video_description || "",
-            language: "en" // Changed from deprecated structure
+            languages: ["en"] // FIX: Changed to languages array (not deprecated)
           }
         ],
         longDescriptions: [
           {
             value: fields.long_description || "",
-            language: "en" // Changed from deprecated structure
+            languages: ["en"] // FIX: Changed to languages array (not deprecated)
           }
         ],
         releaseDate: fields.releaseDate || "",
-        genres: genres, // Now always has at least "Sports"
+        genres: genres,
         advisoryRatings,
         images: fields.thumbnail_url
           ? [
               {
-                type: "thumbnail", // Changed from "main" to "thumbnail"
+                type: "main", // FIX: Using "main" as required by schema
                 url: fields.thumbnail_url,
-                language: "en" // Changed from deprecated structure
+                languages: ["en"] // FIX: Changed to languages array (not deprecated)
               }
             ]
           : [],
@@ -88,7 +90,7 @@ async function generateRokuFeed() {
               quality: "hd",
               playId: fields.video_id || "",
               availabilityInfo: {
-                availabilityStartTime: "2000-01-01T00:00:00Z", // Added required field
+                availabilityStartTime: "2024-01-01T00:00:00Z", // FIX: Added required field
                 country: ["us", "mx"]
               }
             }
@@ -99,13 +101,15 @@ async function generateRokuFeed() {
 
     const feed = {
       version: "1",
-      defaultLanguage: "en",
+      defaultLanguage: "en", // This is still required at feed level
       defaultAvailabilityCountries: ["us", "mx"],
       assets
     };
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(feed, null, 2));
-    console.log(`Roku feed generated: ${OUTPUT_FILE}`);
+    console.log(`✅ Roku feed generated: ${OUTPUT_FILE}`);
+    console.log(`📊 Total assets: ${assets.length}`);
+    
   } catch (error) {
     console.error("Error generating Roku feed:", error.message);
   }
