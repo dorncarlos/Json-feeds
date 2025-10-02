@@ -2,14 +2,14 @@ const fs = require("fs");
 const Airtable = require("airtable");
 require("dotenv").config();
 
-// Airtable setup
+// Airtable setup 
 const base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base("appM9WlWxrWZwSu5j");
 
 // Table name in Airtable
-const TABLE_NAME = "Live Olympics TV";
+const TABLE_NAME = "Live Olympics TV ";
 
 // Roku feed output file
-const OUTPUT_FILE = "roku_feed.json";
+const OUTPUT_FILE = "Live Olympics TV_feed.json";
 
 // Map Airtable contentRating → Roku advisory rating
 const ratingMap = {
@@ -25,14 +25,14 @@ const ratingMap = {
 
 async function generateRokuFeed() {
   try {
-    console.log("📥 Fetching data from Airtable...");
+    console.log("Fetching data from Airtable...");
 
     const records = await base(TABLE_NAME).select({}).all();
 
     const assets = records.map((record) => {
       const fields = record.fields;
 
-      // Advisory Ratings
+      // Handle advisory rating mapping
       let advisoryRatings = [];
       if (fields.contentRating && ratingMap[fields.contentRating]) {
         advisoryRatings.push({
@@ -41,20 +41,9 @@ async function generateRokuFeed() {
         });
       }
 
-      // Genres (expects array or single value)
-      let genres = [];
-      if (fields.genres) {
-        if (Array.isArray(fields.genres)) {
-          genres = fields.genres.map((g) => g.trim());
-        } else if (typeof fields.genres === "string") {
-          genres = [fields.genres.trim()];
-        }
-      }
-
-      // Build asset object
-      const asset = {
+      return {
         id: fields.video_id || "",
-        type: fields.isLiveStream ? "live" : "shortform",
+        type: "shortform",
         titles: [
           {
             value: fields.video_title || "",
@@ -74,25 +63,24 @@ async function generateRokuFeed() {
           }
         ],
         releaseDate: fields.releaseDate || "",
-        genres,
+        genres: fields.genres ? [fields.genres] : [],
         advisoryRatings,
         images: fields.thumbnail_url
           ? [
               {
-                type: "landscape",
+                type: "main",
                 url: fields.thumbnail_url,
                 languages: ["en"]
               }
             ]
           : [],
+        durationInSeconds: fields.durationInSeconds || 0,
         content: {
           playOptions: [
             {
               license: "free",
               quality: "hd",
-              videoType: "HLS", // Roku prefers HLS
               playId: fields.video_id || "",
-              url: fields.stream_url || "",
               availabilityInfo: {
                 country: ["us", "mx"]
               }
@@ -100,26 +88,19 @@ async function generateRokuFeed() {
           ]
         }
       };
-
-      // Only include duration for VOD (not live)
-      if (!fields.isLiveStream) {
-        asset.durationInSeconds = fields.durationInSeconds || 0;
-      }
-
-      return asset;
     });
 
     const feed = {
-      version: "1.0",
+      version: "1",
       defaultLanguage: "en",
       defaultAvailabilityCountries: ["us", "mx"],
       assets
     };
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(feed, null, 2));
-    console.log(`✅ Roku feed generated: ${OUTPUT_FILE}`);
+    console.log(`Roku feed generated: ${OUTPUT_FILE}`);
   } catch (error) {
-    console.error("❌ Error generating Roku feed:", error.message);
+    console.error("Error generating Roku feed:", error.message);
   }
 }
 
