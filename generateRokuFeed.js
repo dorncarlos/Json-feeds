@@ -11,7 +11,7 @@ const TABLE_NAME = "Ento Live Network";
 // Roku feed output file
 const OUTPUT_FILE = "Ento Live Network_feed.json";
 
-// Map Airtable contentRating → Roku advisory rating
+// Map Airtable contentRating
 const ratingMap = {
   "G": "TVY",
   "PG": "TVY7",
@@ -32,7 +32,6 @@ async function generateRokuFeed() {
     const assets = records.map((record) => {
       const fields = record.fields;
 
-      // Handle advisory rating mapping
       let advisoryRatings = [];
       if (fields.contentRating && ratingMap[fields.contentRating]) {
         advisoryRatings.push({
@@ -41,13 +40,11 @@ async function generateRokuFeed() {
         });
       }
 
-      // FIX: Add genres - use "Sports" for Olympic content
       const genres = ["Sports"];
       
-      // FIX: Set realistic duration (minimum 60 seconds)
       const durationInSeconds = fields.durationInSeconds && fields.durationInSeconds >= 60 
         ? fields.durationInSeconds 
-        : 300; // 5 minutes default
+        : 300; 
 
       return {
         id: fields.video_id || "",
@@ -55,19 +52,19 @@ async function generateRokuFeed() {
         titles: [
           {
             value: fields.video_title || "",
-            languages: ["en"] // FIX: Changed to languages array (not deprecated)
+            languages: ["en"] 
           }
         ],
         shortDescriptions: [
           {
             value: fields.video_description || "",
-            languages: ["en"] // FIX: Changed to languages array (not deprecated)
+            languages: ["en"] 
           }
         ],
         longDescriptions: [
           {
             value: fields.long_description || "",
-            languages: ["en"] // FIX: Changed to languages array (not deprecated)
+            languages: ["en"] 
           }
         ],
         releaseDate: fields.releaseDate || "",
@@ -76,9 +73,9 @@ async function generateRokuFeed() {
         images: fields.thumbnail_url
           ? [
               {
-                type: "main", // FIX: Using "main" as required by schema
+                type: "main",
                 url: fields.thumbnail_url,
-                languages: ["en"] // FIX: Changed to languages array (not deprecated)
+                languages: ["en"]
               }
             ]
           : [],
@@ -90,7 +87,7 @@ async function generateRokuFeed() {
               quality: "hd",
               playId: fields.video_id || "",
               availabilityInfo: {
-                availabilityStartTime: "2024-01-01T00:00:00Z", // FIX: Added required field
+                availabilityStartTime: "2024-01-01T00:00:00Z",
                 country: ["us", "mx"]
               }
             }
@@ -101,14 +98,14 @@ async function generateRokuFeed() {
 
     const feed = {
       version: "1",
-      defaultLanguage: "en", // This is still required at feed level
+      defaultLanguage: "en", 
       defaultAvailabilityCountries: ["us", "mx"],
       assets
     };
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(feed, null, 2));
-    console.log(`✅ Roku feed generated: ${OUTPUT_FILE}`);
-    console.log(`📊 Total assets: ${assets.length}`);
+    console.log(`Roku feed generated: ${OUTPUT_FILE}`);
+    console.log(`Total assets: ${assets.length}`);
     
   } catch (error) {
     console.error("Error generating Roku feed:", error.message);
