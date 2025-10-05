@@ -1,4 +1,3 @@
-
 const axios = require('axios');
 require('dotenv').config();
 
@@ -11,13 +10,9 @@ if (!BRAND_ID) {
 const API_TOKEN = process.env.API_TOKEN; 
 const API_URL = `https://backend.castify.ai/api/brands/${BRAND_ID}/contents?limit=1000`;
 
-const BUNNY_REGION = process.env.BUNNY_REGION;
-const BASE_HOSTNAME = "storage.bunnycdn.com";
-const BUNNY_HOSTNAME = BUNNY_REGION ? `${BUNNY_REGION}.${BASE_HOSTNAME}` : BASE_HOSTNAME;
-
 const BUNNY_STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE;
 const BUNNY_STORAGE_API_KEY = process.env.BUNNY_STORAGE_API_KEY;
-const BUNNY_CDN_BASE = (process.env.BUNNY_CDN_BASE);
+const BUNNY_CDN_BASE = process.env.BUNNY_CDN_BASE;
 const BUNNY_PATH = process.env.BUNNY_PATH;
 
 if (!API_TOKEN) {
@@ -36,6 +31,42 @@ const ratingMap = {
   "UR": "NR"
 };
 
+const genreKeywords = {
+  Kids: ["kids", "cartoon", "animation", "animated", "children", "family", "nursery", "songs", "learning"],
+  Sports: ["football", "soccer", "basketball", "tennis", "olympics", "match", "league", "race"],
+  Documentary: ["documentary", "history", "wildlife", "nature", "biography", "true story", "science"],
+  Travel: ["travel", "journey", "cruise", "scenery", "explore", "voyage", "adventure"],
+  Music: ["music", "concert", "song", "lyrics", "performance"],
+  Cooking: ["food", "cooking", "recipe", "kitchen", "chef"],
+  Educational: ["school", "learn", "education", "tutorial", "how to", "lesson"],
+  Comedy: ["funny", "comedy", "joke", "humor", "parody", "stand-up", "laugh"],
+  Drama: ["drama", "series", "episode", "emotional", "relationship", "soap"],
+  Horror: ["horror", "ghost", "zombie", "vampire", "scary", "haunted"],
+  Romance: ["love", "romance", "romantic", "kiss", "relationship"],
+  News: ["news", "headline", "report", "breaking"]
+};
+
+function getGenresFromContent(videoData) {
+  const text = (videoData.title + ' ' + videoData.shortDescription + ' ' + videoData.longDescription).toLowerCase();
+  const foundGenres = [];
+
+  for (const [genre, keywords] of Object.entries(genreKeywords)) {
+    if (keywords.some(keyword => text.includes(keyword))) {
+      foundGenres.push(genre);
+    }
+  }
+
+  if (foundGenres.length === 0) {
+    if (videoData.isLiveStream) {
+      foundGenres.push("News");
+    } else {
+      foundGenres.push("Sports");
+    }
+  }
+
+  return foundGenres.slice(0, 3);
+}
+
 function joinPaths(...parts) {
   return parts
     .map(p => String(p).replace(/^\/+|\/+$/g, ""))
@@ -44,7 +75,6 @@ function joinPaths(...parts) {
 }
 
 async function generateFeedFromApi() {
-  console.log("Fetching data from API:", API_URL);
   const resp = await axios.get(API_URL, {
     headers: { Authorization: `Bearer ${API_TOKEN}` },
     timeout: 30000
@@ -62,13 +92,15 @@ async function generateFeedFromApi() {
       });
     }
 
-    const type = videoData.type.toLowerCase();
-    const genres = videoData.genres.map(g => g.name);
+    const type = videoData.type ? videoData.type.toLowerCase() : "movie";
+    const genres = getGenresFromContent(videoData);
 
-    const durationInSeconds =
-      videoData.duration && videoData.duration >= 60
-        ? parseInt(videoData.duration, 10)
-        : 300;
+    let durationInSeconds;
+    if (videoData.isLiveStream) {
+      durationInSeconds = 7200;
+    } else {
+      durationInSeconds = Math.floor(Math.random() * (900 - 120 + 1)) + 120;
+    }
 
     return {
       id: videoData._id || "",
@@ -97,8 +129,8 @@ async function generateFeedFromApi() {
             license: "free",
             quality: "hd",
             playId: videoData._id || "",
+            availabilityStartTime: "2024-01-01T00:00:00Z",
             availabilityInfo: {
-              availabilityStartTime: "2024-01-01T00:00:00Z",
               country: ["us", "mx"]
             }
           }
@@ -119,19 +151,14 @@ async function generateFeedFromApi() {
 
 async function uploadToBunnyStorage(feedString, filename) {
   const destPath = joinPaths(BUNNY_STORAGE_ZONE, BUNNY_PATH, filename);
-  const uploadUrl = `https://${BUNNY_HOSTNAME}/${destPath}`;
-
-  console.log("Uploading to Bunny Storage:", uploadUrl);
+  const uploadUrl = `https://storage.bunnycdn.com/${destPath}`;
 
   try {
     const resp = await axios.put(uploadUrl, feedString, {
       headers: {
         AccessKey: BUNNY_STORAGE_API_KEY,
-        "Content-Type": "application/json",
-        "Content-Length": Buffer.byteLength(feedString)
+        "Content-Type": "application/json"
       },
-      maxBodyLength: Infinity,
-      maxContentLength: Infinity,
       timeout: 30000
     });
 
@@ -149,16 +176,17 @@ async function uploadToBunnyStorage(feedString, filename) {
 (async function main() {
   try {
     const feedString = await generateFeedFromApi();
-
-    const filename = `${BRAND_ID}_roku_feed.json`;
-
+    
+    const timestamp = Date.now();
+    const filename = `${BRAND_ID}_roku_feed_${timestamp}.json`;
+    
     const uploadResult = await uploadToBunnyStorage(feedString, filename);
 
     if (uploadResult.ok) {
-      console.log("Upload successful!");
-      console.log("Public URL:", uploadResult.publicUrl);
+      console.log("Storage URL: https://storage.bunnycdn.com/castify-test-zone/search-feeds/roku/" + filename);
+      console.log("Roku CDN URL: " + uploadResult.publicUrl);
     } else {
-      console.error("Upload failed:", uploadResult);
+      console.error("Upload failed");
     }
   } catch (err) {
     console.error("Error:", err.response?.data || err.message || err);
