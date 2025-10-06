@@ -66,7 +66,7 @@ function getGenresFromContent(videoData) {
     }
   }
 
-  return videoData.isLiveStream ? ["News"] : ["Film"];
+  return videoData.isLiveStream ? ["News"] : ["Action"];
 }
 
 async function generateFeed(brandId) {
