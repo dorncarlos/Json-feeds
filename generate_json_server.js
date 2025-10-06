@@ -39,9 +39,7 @@ const genreKeywords = {
   Drama: ["drama", "series", "emotional"],
   Horror: ["horror", "ghost", "scary"],
   Romance: ["love", "romance"],
-  News: ["news", "headline", "report"],
-  Adventure: ["adventure", "exploration", "journey"],
-  Lifestyle: ["fashion", "style", "beauty", "trend", "culture"]
+  News: ["news", "headline", "report"]
 };
 
 function joinPaths(...parts) {
@@ -69,6 +67,30 @@ function getGenresFromContent(videoData) {
   return videoData.isLiveStream ? ["News"] : ["Action"];
 }
 
+function sanitizeDescriptions(videoData) {
+  let shortDesc = videoData.shortDescription || "";
+  let longDesc = videoData.longDescription || "";
+
+  if (!shortDesc && !longDesc) {
+    shortDesc = `Watch ${videoData.title || "this video"} now on Roku.`;
+    longDesc = `${videoData.title || "This video"} is available to stream on Roku. Enjoy the content now!`;
+  }
+
+  if (!shortDesc) {
+    shortDesc = longDesc.slice(0, 100) + (longDesc.length > 100 ? "…" : "");
+  }
+
+  if (!longDesc) {
+    longDesc = shortDesc + " Full episode available on Roku.";
+  }
+
+  if (shortDesc === longDesc) {
+    shortDesc = shortDesc.slice(0, Math.min(80, shortDesc.length)) + "...";
+  }
+
+  return { shortDesc, longDesc };
+}
+
 async function generateFeed(brandId) {
   const API_URL = `https://backend.castify.ai/api/brands/${brandId}/contents?limit=1000`;
 
@@ -83,10 +105,7 @@ async function generateFeed(brandId) {
   const assets = data.map((videoData) => {
     const advisoryRatings = [];
     if (videoData.ageRating && ratingMap[videoData.ageRating]) {
-      advisoryRatings.push({
-        source: "USA_PR",
-        value: ratingMap[videoData.ageRating]
-      });
+      advisoryRatings.push({ source: "USA_PR", value: ratingMap[videoData.ageRating] });
     }
 
     const genres = getGenresFromContent(videoData);
@@ -94,12 +113,15 @@ async function generateFeed(brandId) {
       ? 7200
       : Math.floor(Math.random() * (1200 - 300 + 1)) + 300;
 
+    const { shortDesc, longDesc } = sanitizeDescriptions(videoData);
+    
+
     return {
       id: videoData._id || "",
       type: videoData.type || "movie",
       titles: [{ value: videoData.title || "", languages: ["en"] }],
-      shortDescriptions: [{ value: videoData.shortDescription || "", languages: ["en"] }],
-      longDescriptions: [{ value: videoData.longDescription || "", languages: ["en"] }],
+      shortDescriptions: [{ value: shortDesc, languages: ["en"] }],
+      longDescriptions: [{ value: longDesc, languages: ["en"] }],
       releaseDate: videoData.createdAt
         ? new Date(videoData.createdAt).toISOString().split("T")[0]
         : "",
@@ -144,8 +166,7 @@ async function uploadToBunny(feedString, filename) {
   });
 
   if (resp.status >= 200 && resp.status < 300) {
-    const publicUrl = `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, filename)}`;
-    return publicUrl;
+    return `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, filename)}`;
   } else {
     throw new Error(`Upload failed with status ${resp.status}`);
   }
