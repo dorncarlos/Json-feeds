@@ -2,7 +2,7 @@
   "name": "airtable-import",
   "version": "1.0.0",
   "description": "",
-  "main": "generateRokuFeed.js",
+  "main": "node generate_and_store_feed.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
   "dependencies": {
     "airtable": "^0.12.2",
     "axios": "^1.12.2",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
   }
 }

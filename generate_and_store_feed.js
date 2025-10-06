@@ -1,89 +1,86 @@
-const axios = require('axios');
-require('dotenv').config();
+const express = require("express");
+const axios = require("axios");
+require("dotenv").config();
 
-const BRAND_ID = process.env.BRAND_ID || process.argv[2];
-if (!BRAND_ID) {
-  console.error('Please provide BRAND_ID (env or first CLI arg).');
-  process.exit(1);
-}
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-const API_TOKEN = process.env.API_TOKEN; 
-const API_URL = `https://backend.castify.ai/api/brands/${BRAND_ID}/contents?limit=1000`;
-
+const API_TOKEN = process.env.API_TOKEN;
 const BUNNY_STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE;
 const BUNNY_STORAGE_API_KEY = process.env.BUNNY_STORAGE_API_KEY;
 const BUNNY_CDN_BASE = process.env.BUNNY_CDN_BASE;
 const BUNNY_PATH = process.env.BUNNY_PATH;
 
-if (!API_TOKEN) {
-  console.error("Please set API_TOKEN in env.");
+if (!API_TOKEN || !BUNNY_STORAGE_ZONE || !BUNNY_STORAGE_API_KEY || !BUNNY_CDN_BASE || !BUNNY_PATH) {
+  console.error("Missing required environment variables in .env");
   process.exit(1);
 }
 
 const ratingMap = {
-  "G": "TVY",
-  "PG": "TVY7",
+  G: "TVY",
+  PG: "TVY7",
   "PG-13": "TV14",
-  "PG13": "TV14",
-  "R": "TVMA",
+  PG13: "TV14",
+  R: "TVMA",
   "NC-17": "TVMA",
-  "NC17": "TVMA",
-  "UR": "NR"
+  NC17: "TVMA",
+  UR: "NR"
 };
 
 const genreKeywords = {
-  Kids: ["kids", "cartoon", "animation", "animated", "children", "family", "nursery", "songs", "learning"],
-  Sports: ["football", "soccer", "basketball", "tennis", "olympics", "match", "league", "race"],
-  Documentary: ["documentary", "history", "wildlife", "nature", "biography", "true story", "science"],
-  Travel: ["travel", "journey", "cruise", "scenery", "explore", "voyage", "adventure"],
-  Music: ["music", "concert", "song", "lyrics", "performance"],
-  Cooking: ["food", "cooking", "recipe", "kitchen", "chef"],
-  Educational: ["school", "learn", "education", "tutorial", "how to", "lesson"],
-  Comedy: ["funny", "comedy", "joke", "humor", "parody", "stand-up", "laugh"],
-  Drama: ["drama", "series", "episode", "emotional", "relationship", "soap"],
-  Horror: ["horror", "ghost", "zombie", "vampire", "scary", "haunted"],
-  Romance: ["love", "romance", "romantic", "kiss", "relationship"],
-  News: ["news", "headline", "report", "breaking"]
+  Kids: ["kids", "cartoon", "animation", "children", "family"],
+  Sports: ["football", "soccer", "basketball", "tennis", "race"],
+  Documentary: ["documentary", "history", "wildlife", "nature"],
+  Travel: ["travel", "journey", "explore", "adventure"],
+  Music: ["music", "song", "concert"],
+  Food: ["food", "cooking", "recipe"],
+  Educational: ["learn", "education", "tutorial"],
+  Comedy: ["funny", "comedy", "laugh"],
+  Drama: ["drama", "series", "emotional"],
+  Horror: ["horror", "ghost", "scary"],
+  Romance: ["love", "romance"],
+  News: ["news", "headline", "report"],
+  Adventure: ["adventure", "exploration", "journey"],
+  Lifestyle: ["fashion", "style", "beauty", "trend", "culture"]
 };
-
-function getGenresFromContent(videoData) {
-  const text = (videoData.title + ' ' + videoData.shortDescription + ' ' + videoData.longDescription).toLowerCase();
-  const foundGenres = [];
-
-  for (const [genre, keywords] of Object.entries(genreKeywords)) {
-    if (keywords.some(keyword => text.includes(keyword))) {
-      foundGenres.push(genre);
-    }
-  }
-
-  if (foundGenres.length === 0) {
-    if (videoData.isLiveStream) {
-      foundGenres.push("News");
-    } else {
-      foundGenres.push("Sports");
-    }
-  }
-
-  return foundGenres.slice(0, 3);
-}
 
 function joinPaths(...parts) {
   return parts
-    .map(p => String(p).replace(/^\/+|\/+$/g, ""))
+    .map((p) => String(p).replace(/^\/+|\/+$/g, ""))
     .filter(Boolean)
     .join("/");
 }
 
-async function generateFeedFromApi() {
+function getGenresFromContent(videoData) {
+  const text = (
+    (videoData.title || "") +
+    " " +
+    (videoData.shortDescription || "") +
+    " " +
+    (videoData.longDescription || "")
+  ).toLowerCase();
+
+  for (const [genre, keywords] of Object.entries(genreKeywords)) {
+    if (keywords.some((keyword) => text.includes(keyword))) {
+      return [genre];
+    }
+  }
+
+  return videoData.isLiveStream ? ["News"] : ["Film"];
+}
+
+async function generateFeed(brandId) {
+  const API_URL = `https://backend.castify.ai/api/brands/${brandId}/contents?limit=1000`;
+
   const resp = await axios.get(API_URL, {
     headers: { Authorization: `Bearer ${API_TOKEN}` },
     timeout: 30000
   });
 
   const data = resp.data.data;
-  if (!Array.isArray(data)) throw new Error("Expected response.data.data to be an array");
+  if (!Array.isArray(data)) throw new Error("Expected array of content");
 
-  const assets = data.map(videoData => {
+  const assets = data.map((videoData) => {
     const advisoryRatings = [];
     if (videoData.ageRating && ratingMap[videoData.ageRating]) {
       advisoryRatings.push({
@@ -92,19 +89,14 @@ async function generateFeedFromApi() {
       });
     }
 
-    const type = videoData.type ? videoData.type.toLowerCase() : "movie";
     const genres = getGenresFromContent(videoData);
-
-    let durationInSeconds;
-    if (videoData.isLiveStream) {
-      durationInSeconds = 7200;
-    } else {
-      durationInSeconds = Math.floor(Math.random() * (900 - 120 + 1)) + 120;
-    }
+    const durationInSeconds = videoData.isLiveStream
+      ? 7200
+      : Math.floor(Math.random() * (1200 - 300 + 1)) + 300;
 
     return {
       id: videoData._id || "",
-      type,
+      type: videoData.type || "movie",
       titles: [{ value: videoData.title || "", languages: ["en"] }],
       shortDescriptions: [{ value: videoData.shortDescription || "", languages: ["en"] }],
       longDescriptions: [{ value: videoData.longDescription || "", languages: ["en"] }],
@@ -114,13 +106,7 @@ async function generateFeedFromApi() {
       genres,
       advisoryRatings,
       images: videoData.landscapeThumbnail?.url
-        ? [
-            {
-              type: "main",
-              url: videoData.landscapeThumbnail.url,
-              languages: ["en"]
-            }
-          ]
+        ? [{ type: "main", url: videoData.landscapeThumbnail.url, languages: ["en"] }]
         : [],
       durationInSeconds,
       content: {
@@ -130,65 +116,67 @@ async function generateFeedFromApi() {
             quality: "hd",
             playId: videoData._id || "",
             availabilityStartTime: "2024-01-01T00:00:00Z",
-            availabilityInfo: {
-              country: ["us", "mx"]
-            }
+            availabilityInfo: { country: ["us", "mx"] }
           }
         ]
       }
     };
   });
 
-  const feed = {
+  return {
     version: "1",
     defaultLanguage: "en",
     defaultAvailabilityCountries: ["us", "mx"],
     assets
   };
-
-  return JSON.stringify(feed, null, 2);
 }
 
-async function uploadToBunnyStorage(feedString, filename) {
+async function uploadToBunny(feedString, filename) {
   const destPath = joinPaths(BUNNY_STORAGE_ZONE, BUNNY_PATH, filename);
   const uploadUrl = `https://storage.bunnycdn.com/${destPath}`;
 
-  try {
-    const resp = await axios.put(uploadUrl, feedString, {
-      headers: {
-        AccessKey: BUNNY_STORAGE_API_KEY,
-        "Content-Type": "application/json"
-      },
-      timeout: 30000
-    });
+  const resp = await axios.put(uploadUrl, feedString, {
+    headers: {
+      AccessKey: BUNNY_STORAGE_API_KEY,
+      "Content-Type": "application/json"
+    },
+    timeout: 30000
+  });
 
-    if (resp.status >= 200 && resp.status < 300) {
-      const publicUrl = `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, filename)}`;
-      return { ok: true, publicUrl, status: resp.status };
-    } else {
-      return { ok: false, status: resp.status, data: resp.data };
-    }
-  } catch (err) {
-    return { ok: false, error: err.response?.data || err.message || err };
+  if (resp.status >= 200 && resp.status < 300) {
+    const publicUrl = `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, filename)}`;
+    return publicUrl;
+  } else {
+    throw new Error(`Upload failed with status ${resp.status}`);
   }
 }
 
-(async function main() {
-  try {
-    const feedString = await generateFeedFromApi();
-    
-    const timestamp = Date.now();
-    const filename = `${BRAND_ID}_roku_feed_${timestamp}.json`;
-    
-    const uploadResult = await uploadToBunnyStorage(feedString, filename);
+app.get("/generate-feed", async (req, res) => {
+  const brandId = req.query.brandId;
+  if (!brandId) return res.status(400).json({ error: "Missing brandId query param" });
 
-    if (uploadResult.ok) {
-      console.log("Storage URL: https://storage.bunnycdn.com/castify-test-zone/search-feeds/roku/" + filename);
-      console.log("Roku CDN URL: " + uploadResult.publicUrl);
-    } else {
-      console.error("Upload failed");
-    }
+  try {
+    console.log(`Generating feed for brand: ${brandId}`);
+
+    const feedData = await generateFeed(brandId);
+    const feedString = JSON.stringify(feedData, null, 2);
+    const filename = `${brandId}_roku_feed_${Date.now()}.json`;
+
+    const publicUrl = await uploadToBunny(feedString, filename);
+
+    console.log("Feed uploaded:", publicUrl);
+
+    res.json({
+      message: "Feed generated successfully",
+      brandId,
+      feedUrl: publicUrl
+    });
   } catch (err) {
-    console.error("Error:", err.response?.data || err.message || err);
+    console.error("Error generating feed:", err.message || err);
+    res.status(500).json({ error: err.message || "Internal server error" });
   }
-})();
+});
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
