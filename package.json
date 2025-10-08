@@ -1,17 +1,23 @@
 {
   "name": "airtable-import",
   "version": "1.0.0",
-  "description": "",
-  "main": "node generate_and_store_feed.js",
+  "description": "Roku feed generator using Bunny CDN",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dorncarlos/Json-feeds.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "roku",
+    "feed",
+    "bunnycdn",
+    "express"
+  ],
+  "author": "Don Carlos John",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -19,7 +25,6 @@
   },
   "homepage": "https://github.com/dorncarlos/Json-feeds#readme",
   "dependencies": {
-    "airtable": "^0.12.2",
     "axios": "^1.12.2",
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
