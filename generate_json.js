@@ -1,4 +1,7 @@
 const axios = require("axios");
+const sharp = require("sharp");
+const fs = require("fs");
+const path = require("path");
 
 const {
   API_TOKEN,
@@ -43,6 +46,68 @@ function joinPaths(...parts) {
   return parts.map((p) => String(p).replace(/^\/+|\/+$/g, "")).filter(Boolean).join("/");
 }
 
+async function retryRequest(fn, retries = 3, delay = 3000) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (attempt < retries) await new Promise((r) => setTimeout(r, delay));
+    }
+  }
+  throw new Error(`Failed after ${retries} retries`);
+}
+
+async function validateAndFixImage(imageUrl, fileName) {
+  try {
+    let fixedUrl = imageUrl.replace(/\.\.(?=\.(png|jpg|jpeg|gif))/gi, "");
+    
+    let extMatch = fixedUrl.match(/\.(png|jpe?g|gif)$/i);
+    let ext = extMatch ? extMatch[1].toLowerCase() : "png"; 
+
+    
+    const buffer = await retryRequest(async () => {
+      const response = await axios.get(fixedUrl, {
+        responseType: "arraybuffer",
+        timeout: 40000
+      });
+      return Buffer.from(response.data);
+    });
+
+    const metadata = await sharp(buffer).metadata();
+
+    const targetWidth = 1152;
+    const targetHeight = 648; 
+    const aspect = metadata.width / metadata.height;
+    const isValidAspect = Math.abs(aspect - 16 / 9) < 0.05;
+
+    let finalBuffer = buffer;
+
+    if (!isValidAspect || metadata.width < 1000 || metadata.height < 550) {
+      finalBuffer = await sharp(buffer)
+        .resize(targetWidth, targetHeight, { fit: "cover" })
+        .toFormat(ext === "jpg" ? "jpeg" : ext) 
+        .toBuffer();
+    }
+
+    // Upload image to Bunny
+    const destPath = joinPaths(BUNNY_STORAGE_ZONE, BUNNY_PATH, `images/${fileName}.${ext}`);
+    const uploadUrl = `https://storage.bunnycdn.com/${destPath}`;
+
+    await axios.put(uploadUrl, finalBuffer, {
+      headers: {
+        AccessKey: BUNNY_STORAGE_API_KEY,
+        "Content-Type": ext === "jpg" ? "image/jpeg" : `image/${ext}`
+      },
+      timeout: 30000
+    });
+
+    return `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, `images/${fileName}.${ext}`)}`;
+  } catch (err) {
+    console.warn(`❌ Image skipped: ${imageUrl} — ${err.message}`);
+    return imageUrl;
+  }
+}
+
 function getGenresFromContent(videoData) {
   const text = (
     (videoData.title || "") +
@@ -57,7 +122,6 @@ function getGenresFromContent(videoData) {
       return [genre];
     }
   }
-
   return videoData.isLiveStream ? ["News"] : ["Action"];
 }
 
@@ -67,7 +131,7 @@ function sanitizeDescriptions(videoData) {
 
   if (!shortDesc && !longDesc) {
     shortDesc = `Watch ${videoData.title || "this video"} now on Roku.`;
-    longDesc = `${videoData.title || "This video"} is available to stream on Roku. Enjoy the content now!`;
+    longDesc = `${videoData.title || "This video"} is available to stream on Roku. Enjoy it now!`;
   }
 
   if (!shortDesc) {
@@ -96,47 +160,53 @@ async function generateFeed(brandId) {
   const data = resp.data.data;
   if (!Array.isArray(data)) throw new Error("Expected array of content");
 
-  const assets = data.map((videoData) => {
-    const advisoryRatings = [];
-    if (videoData.ageRating && ratingMap[videoData.ageRating]) {
-      advisoryRatings.push({ source: "USA_PR", value: ratingMap[videoData.ageRating] });
-    }
-
-    const genres = getGenresFromContent(videoData);
-    const durationInSeconds = videoData.isLiveStream
-      ? 7200
-      : Math.floor(Math.random() * (1200 - 300 + 1)) + 300;
-
-    const { shortDesc, longDesc } = sanitizeDescriptions(videoData);
-
-    return {
-      id: videoData._id || "",
-      type: videoData.type || "movie",
-      titles: [{ value: videoData.title || "", languages: ["en"] }],
-      shortDescriptions: [{ value: shortDesc, languages: ["en"] }],
-      longDescriptions: [{ value: longDesc, languages: ["en"] }],
-      releaseDate: videoData.createdAt
-        ? new Date(videoData.createdAt).toISOString().split("T")[0]
-        : "",
-      genres,
-      advisoryRatings,
-      images: videoData.landscapeThumbnail?.url
-        ? [{ type: "main", url: videoData.landscapeThumbnail.url, languages: ["en"] }]
-        : [],
-      durationInSeconds,
-      content: {
-        playOptions: [
-          {
-            license: "free",
-            quality: "hd",
-            playId: videoData._id || "",
-            availabilityStartTime: "2024-01-01T00:00:00Z",
-            availabilityInfo: { country: ["us", "mx"] }
-          }
-        ]
+  const assets = await Promise.all(
+    data.map(async (videoData) => {
+      const advisoryRatings = [];
+      if (videoData.ageRating && ratingMap[videoData.ageRating]) {
+        advisoryRatings.push({ source: "USA_PR", value: ratingMap[videoData.ageRating] });
       }
-    };
-  });
+
+      const genres = getGenresFromContent(videoData);
+      const durationInSeconds = videoData.isLiveStream
+        ? 7200
+        : Math.floor(Math.random() * (1200 - 300 + 1)) + 300;
+
+      const { shortDesc, longDesc } = sanitizeDescriptions(videoData);
+
+      let imageUrl = videoData.landscapeThumbnail?.url || "";
+      if (imageUrl) {
+        const fileName = videoData._id || `img_${Date.now()}`;
+        imageUrl = await validateAndFixImage(imageUrl, fileName);
+      }
+
+      return {
+        id: videoData._id || "",
+        type: videoData.type || "movie",
+        titles: [{ value: videoData.title || "", languages: ["en"] }],
+        shortDescriptions: [{ value: shortDesc, languages: ["en"] }],
+        longDescriptions: [{ value: longDesc, languages: ["en"] }],
+        releaseDate: videoData.createdAt
+          ? new Date(videoData.createdAt).toISOString().split("T")[0]
+          : "",
+        genres,
+        advisoryRatings,
+        images: imageUrl ? [{ type: "main", url: imageUrl, languages: ["en"] }] : [],
+        durationInSeconds,
+        content: {
+          playOptions: [
+            {
+              license: "free",
+              quality: "hd",
+              playId: videoData._id || "",
+              availabilityStartTime: "2024-01-01T00:00:00Z",
+              availabilityInfo: { country: ["us", "mx"] }
+            }
+          ]
+        }
+      };
+    })
+  );
 
   return {
     version: "1",
