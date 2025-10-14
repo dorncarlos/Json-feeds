@@ -28,19 +28,56 @@ const ratingMap = {
 };
 
 const genreKeywords = {
-  Kids: ["kids", "cartoon", "animation", "children", "family"],
-  Sports: ["football", "soccer", "basketball", "tennis", "race"],
-  Documentary: ["documentary", "history", "wildlife", "nature"],
-  Travel: ["travel", "journey", "explore", "adventure"],
-  Music: ["music", "song", "concert"],
-  Food: ["food", "cooking", "recipe"],
-  Educational: ["learn", "education", "tutorial"],
-  Comedy: ["funny", "comedy", "laugh"],
-  Drama: ["drama", "series", "emotional"],
-  Horror: ["horror", "ghost", "scary"],
-  Romance: ["love", "romance"],
-  News: ["news", "headline", "report"]
+  Kids: [
+    "kids", "cartoon", "animation", "children", "family", "fun", "toys",
+    "learning", "junior", "nursery", "educational", "playtime", "adventure"
+  ],
+  Sports: [
+    "football", "soccer", "basketball", "tennis", "race", "sports", "cricket",
+    "golf", "boxing", "wrestling", "match", "highlights", "tournament", "league"
+  ],
+  Documentary: [
+    "documentary", "history", "wildlife", "nature", "true story", "culture",
+    "science", "technology", "biography", "real life", "environment", "society"
+  ],
+  Travel: [
+    "travel", "journey", "explore", "adventure", "vacation", "tourism",
+    "destination", "trip", "expedition", "guide", "world", "beach", "culture"
+  ],
+  Music: [
+    "music", "song", "concert", "live", "performance", "artist", "dj",
+    "instrumental", "band", "album", "playlist", "melody", "singing"
+  ],
+  Food: [
+    "food", "cooking", "recipe", "kitchen", "chef", "baking", "culinary",
+    "dining", "restaurant", "meal", "snack", "delicious", "taste", "gourmet"
+  ],
+  Educational: [
+    "learn", "education", "tutorial", "course", "class", "lecture", "study",
+    "lesson", "teacher", "training", "how to", "school", "academy"
+  ],
+  Comedy: [
+    "funny", "comedy", "laugh", "humor", "standup", "parody", "satire",
+    "joke", "sketch", "spoof", "entertainment", "fun", "series"
+  ],
+  Drama: [
+    "drama", "series", "emotional", "thriller", "crime", "character",
+    "story", "movie", "suspense", "family", "relationship", "life"
+  ],
+  Horror: [
+    "horror", "ghost", "scary", "thriller", "monster", "zombie", "fear",
+    "haunted", "dark", "vampire", "paranormal", "supernatural", "killer"
+  ],
+  Romance: [
+    "love", "romance", "relationship", "couple", "heart", "dating",
+    "wedding", "romantic", "passion", "kiss", "emotion", "affection"
+  ],
+  News: [
+    "news", "headline", "report", "update", "breaking", "politics",
+    "world", "economy", "finance", "weather", "interview", "analysis"
+  ]
 };
+
 
 function joinPaths(...parts) {
   return parts.map((p) => String(p).replace(/^\/+|\/+$/g, "")).filter(Boolean).join("/");
@@ -103,7 +140,7 @@ async function validateAndFixImage(imageUrl, fileName) {
 
     return `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, `images/${fileName}.${ext}`)}`;
   } catch (err) {
-    console.warn(`❌ Image skipped: ${imageUrl} — ${err.message}`);
+    console.warn(`Image skipped: ${imageUrl} — ${err.message}`);
     return imageUrl;
   }
 }
