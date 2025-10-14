@@ -15,7 +15,7 @@ app.get("/generate-feed", async (req, res) => {
 
     const feedData = await generateFeed(brandId);
     const feedString = JSON.stringify(feedData, null, 2);
-    const filename = `${brandId}_roku_feed_${Date.now()}.json`;
+    const filename = `${brandId}_roku_feed.json`;
 
     const publicUrl = await uploadToBunny(feedString, filename);
 

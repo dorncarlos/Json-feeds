@@ -140,7 +140,6 @@ async function validateAndFixImage(imageUrl, fileName) {
 
     return `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, `images/${fileName}.${ext}`)}`;
   } catch (err) {
-    console.warn(`Image skipped: ${imageUrl} — ${err.message}`);
     return imageUrl;
   }
 }
