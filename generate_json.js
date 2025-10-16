@@ -1,6 +1,5 @@
 const axios = require("axios");
 const sharp = require("sharp");
-const fs = require("fs");
 const path = require("path");
 
 const {
@@ -12,7 +11,7 @@ const {
 } = process.env;
 
 if (!API_TOKEN || !BUNNY_STORAGE_ZONE || !BUNNY_STORAGE_API_KEY || !BUNNY_CDN_BASE || !BUNNY_PATH) {
-  console.error("Missing required environment variables in .env");
+  console.error("❌ Missing required environment variables in .env");
   process.exit(1);
 }
 
@@ -28,66 +27,38 @@ const ratingMap = {
 };
 
 const genreKeywords = {
-  Kids: [
-    "kids", "cartoon", "animation", "children", "family", "fun", "toys",
-    "learning", "junior", "nursery", "educational", "playtime", "adventure"
-  ],
-  Sports: [
-    "football", "soccer", "basketball", "tennis", "race", "sports", "cricket",
-    "golf", "boxing", "wrestling", "match", "highlights", "tournament", "league"
-  ],
-  Documentary: [
-    "documentary", "history", "wildlife", "nature", "true story", "culture",
-    "science", "technology", "biography", "real life", "environment", "society"
-  ],
-  Travel: [
-    "travel", "journey", "explore", "adventure", "vacation", "tourism",
-    "destination", "trip", "expedition", "guide", "world", "beach", "culture"
-  ],
-  Music: [
-    "music", "song", "concert", "live", "performance", "artist", "dj",
-    "instrumental", "band", "album", "playlist", "melody", "singing"
-  ],
-  Food: [
-    "food", "cooking", "recipe", "kitchen", "chef", "baking", "culinary",
-    "dining", "restaurant", "meal", "snack", "delicious", "taste", "gourmet"
-  ],
-  Educational: [
-    "learn", "education", "tutorial", "course", "class", "lecture", "study",
-    "lesson", "teacher", "training", "how to", "school", "academy"
-  ],
-  Comedy: [
-    "funny", "comedy", "laugh", "humor", "standup", "parody", "satire",
-    "joke", "sketch", "spoof", "entertainment", "fun", "series"
-  ],
-  Drama: [
-    "drama", "series", "emotional", "thriller", "crime", "character",
-    "story", "movie", "suspense", "family", "relationship", "life"
-  ],
-  Horror: [
-    "horror", "ghost", "scary", "thriller", "monster", "zombie", "fear",
-    "haunted", "dark", "vampire", "paranormal", "supernatural", "killer"
-  ],
-  Romance: [
-    "love", "romance", "relationship", "couple", "heart", "dating",
-    "wedding", "romantic", "passion", "kiss", "emotion", "affection"
-  ],
-  News: [
-    "news", "headline", "report", "update", "breaking", "politics",
-    "world", "economy", "finance", "weather", "interview", "analysis"
-  ]
+  Kids: ["kids", "cartoon", "animation", "children", "family", "fun", "educational"],
+  Sports: ["football", "soccer", "basketball", "tennis", "race", "sports", "cricket"],
+  Documentary: ["documentary", "history", "wildlife", "nature", "science", "culture"],
+  Travel: ["travel", "journey", "explore", "adventure", "trip", "vacation"],
+  Music: ["music", "song", "concert", "live", "dj", "artist"],
+  Food: ["food", "cooking", "recipe", "chef", "kitchen", "meal"],
+  Educational: ["learn", "education", "tutorial", "class", "lesson"],
+  Comedy: ["funny", "comedy", "laugh", "humor", "standup", "sketch"],
+  Drama: ["drama", "series", "emotional", "thriller", "movie"],
+  Horror: ["horror", "ghost", "scary", "zombie", "fear"],
+  Romance: ["love", "romance", "relationship", "couple", "wedding"],
+  News: ["news", "headline", "report", "update", "politics"]
 };
-
 
 function joinPaths(...parts) {
   return parts.map((p) => String(p).replace(/^\/+|\/+$/g, "")).filter(Boolean).join("/");
+}
+
+function isValidImageUrl(url) {
+  if (!url) return false;
+  const lower = url.toLowerCase();
+  const validExtensions = [".jpg", ".jpeg", ".png", ".webp"];
+  if (!validExtensions.some(ext => lower.includes(ext))) return false;
+  if (lower.includes("error") || lower.includes("placeholder")) return false;
+  return true;
 }
 
 async function retryRequest(fn, retries = 3, delay = 3000) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       return await fn();
-    } catch (err) {
+    } catch {
       if (attempt < retries) await new Promise((r) => setTimeout(r, delay));
     }
   }
@@ -96,51 +67,50 @@ async function retryRequest(fn, retries = 3, delay = 3000) {
 
 async function validateAndFixImage(imageUrl, fileName) {
   try {
-    let fixedUrl = imageUrl.replace(/\.\.(?=\.(png|jpg|jpeg|gif))/gi, "");
-    
-    let extMatch = fixedUrl.match(/\.(png|jpe?g|gif)$/i);
-    let ext = extMatch ? extMatch[1].toLowerCase() : "png"; 
+    if (!isValidImageUrl(imageUrl)) throw new Error("Invalid image URL");
 
-    
-    const buffer = await retryRequest(async () => {
-      const response = await axios.get(fixedUrl, {
+    // Detect extension
+    const isPng = imageUrl.toLowerCase().endsWith(".png");
+    const format = isPng ? "png" : "jpeg";
+    const ext = isPng ? "png" : "jpg";
+
+    // Fetch image
+    const response = await retryRequest(async () => {
+      const res = await axios.get(imageUrl, {
         responseType: "arraybuffer",
-        timeout: 40000
+        timeout: 40000,
+        validateStatus: (status) => status >= 200 && status < 400
       });
-      return Buffer.from(response.data);
+      const type = res.headers["content-type"] || "";
+      if (!type.startsWith("image/")) throw new Error(`Invalid image type: ${type}`);
+      return res;
     });
 
-    const metadata = await sharp(buffer).metadata();
+    const buffer = Buffer.from(response.data);
 
-    const targetWidth = 1152;
-    const targetHeight = 648; 
-    const aspect = metadata.width / metadata.height;
-    const isValidAspect = Math.abs(aspect - 16 / 9) < 0.05;
+    // ✅ Always resize to uniform 1152x648
+    const resizedBuffer = await sharp(buffer)
+      .resize(1152, 648, { fit: "cover", position: "center" })
+      [format]({ quality: 80 })
+      .toBuffer();
 
-    let finalBuffer = buffer;
-
-    if (!isValidAspect || metadata.width < 1000 || metadata.height < 550) {
-      finalBuffer = await sharp(buffer)
-        .resize(targetWidth, targetHeight, { fit: "cover" })
-        .toFormat(ext === "jpg" ? "jpeg" : ext) 
-        .toBuffer();
-    }
-
-    // Upload image to Bunny
+    // Upload to BunnyCDN
     const destPath = joinPaths(BUNNY_STORAGE_ZONE, BUNNY_PATH, `images/${fileName}.${ext}`);
     const uploadUrl = `https://storage.bunnycdn.com/${destPath}`;
 
-    await axios.put(uploadUrl, finalBuffer, {
+    await axios.put(uploadUrl, resizedBuffer, {
       headers: {
         AccessKey: BUNNY_STORAGE_API_KEY,
-        "Content-Type": ext === "jpg" ? "image/jpeg" : `image/${ext}`
+        "Content-Type": isPng ? "image/png" : "image/jpeg",
+        "Cache-Control": "no-cache"
       },
       timeout: 30000
     });
 
     return `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, `images/${fileName}.${ext}`)}`;
   } catch (err) {
-    return imageUrl;
+    console.warn(`⚠️ Skipping invalid or broken image: ${imageUrl}`);
+    return null;
   }
 }
 
@@ -154,9 +124,7 @@ function getGenresFromContent(videoData) {
   ).toLowerCase();
 
   for (const [genre, keywords] of Object.entries(genreKeywords)) {
-    if (keywords.some((keyword) => text.includes(keyword))) {
-      return [genre];
-    }
+    if (keywords.some((keyword) => text.includes(keyword))) return [genre];
   }
   return videoData.isLiveStream ? ["News"] : ["Action"];
 }
@@ -167,7 +135,7 @@ function sanitizeDescriptions(videoData) {
 
   if (!shortDesc && !longDesc) {
     shortDesc = `Watch ${videoData.title || "this video"} now on Roku.`;
-    longDesc = `${videoData.title || "This video"} is available to stream on Roku. Enjoy it now!`;
+    longDesc = `${videoData.title || "This video"} is available to stream on Roku.`;
   }
 
   if (!shortDesc) {
@@ -196,53 +164,60 @@ async function generateFeed(brandId) {
   const data = resp.data.data;
   if (!Array.isArray(data)) throw new Error("Expected array of content");
 
-  const assets = await Promise.all(
-    data.map(async (videoData) => {
-      const advisoryRatings = [];
-      if (videoData.ageRating && ratingMap[videoData.ageRating]) {
-        advisoryRatings.push({ source: "USA_PR", value: ratingMap[videoData.ageRating] });
-      }
+  const assets = (
+    await Promise.all(
+      data.map(async (videoData) => {
+        try {
+          let imageUrl = videoData.landscapeThumbnail?.url || "";
+          if (!isValidImageUrl(imageUrl)) return null;
 
-      const genres = getGenresFromContent(videoData);
-      const durationInSeconds = videoData.isLiveStream
-        ? 7200
-        : Math.floor(Math.random() * (1200 - 300 + 1)) + 300;
+          const fileName = videoData._id || `img_${Date.now()}`;
+          imageUrl = await validateAndFixImage(imageUrl, fileName);
+          if (!imageUrl) return null;
 
-      const { shortDesc, longDesc } = sanitizeDescriptions(videoData);
+          const advisoryRatings = [];
+          if (videoData.ageRating && ratingMap[videoData.ageRating]) {
+            advisoryRatings.push({ source: "USA_PR", value: ratingMap[videoData.ageRating] });
+          }
 
-      let imageUrl = videoData.landscapeThumbnail?.url || "";
-      if (imageUrl) {
-        const fileName = videoData._id || `img_${Date.now()}`;
-        imageUrl = await validateAndFixImage(imageUrl, fileName);
-      }
+          const genres = getGenresFromContent(videoData);
+          const durationInSeconds = videoData.isLiveStream
+            ? 7200
+            : Math.floor(Math.random() * (1200 - 300 + 1)) + 300;
 
-      return {
-        id: videoData._id || "",
-        type: videoData.type || "movie",
-        titles: [{ value: videoData.title || "", languages: ["en"] }],
-        shortDescriptions: [{ value: shortDesc, languages: ["en"] }],
-        longDescriptions: [{ value: longDesc, languages: ["en"] }],
-        releaseDate: videoData.createdAt
-          ? new Date(videoData.createdAt).toISOString().split("T")[0]
-          : "",
-        genres,
-        advisoryRatings,
-        images: imageUrl ? [{ type: "main", url: imageUrl, languages: ["en"] }] : [],
-        durationInSeconds,
-        content: {
-          playOptions: [
-            {
-              license: "free",
-              quality: "hd",
-              playId: videoData._id || "",
-              availabilityStartTime: "2024-01-01T00:00:00Z",
-              availabilityInfo: { country: ["us", "mx"] }
+          const { shortDesc, longDesc } = sanitizeDescriptions(videoData);
+
+          return {
+            id: videoData._id || "",
+            type: videoData.type || "movie",
+            titles: [{ value: videoData.title || "", languages: ["en"] }],
+            shortDescriptions: [{ value: shortDesc, languages: ["en"] }],
+            longDescriptions: [{ value: longDesc, languages: ["en"] }],
+            releaseDate: videoData.createdAt
+              ? new Date(videoData.createdAt).toISOString().split("T")[0]
+              : "",
+            genres,
+            advisoryRatings,
+            images: [{ type: "main", url: imageUrl, languages: ["en"] }],
+            durationInSeconds,
+            content: {
+              playOptions: [
+                {
+                  license: "free",
+                  quality: "hd",
+                  playId: videoData._id || "",
+                  availabilityStartTime: "2024-01-01T00:00:00Z",
+                  availabilityInfo: { country: ["us", "mx"] }
+                }
+              ]
             }
-          ]
+          };
+        } catch {
+          return null;
         }
-      };
-    })
-  );
+      })
+    )
+  ).filter(Boolean);
 
   return {
     version: "1",
@@ -253,7 +228,7 @@ async function generateFeed(brandId) {
 }
 
 async function uploadToBunny(feedString, filename) {
-  const destPath = joinPaths(BUNNY_STORAGE_ZONE, BUNNY_PATH, filename);
+  const destPath = joinPaths(BUNNY_STORAGE_ZONE, BUNNY_PATH, `feeds/${filename}`);
   const uploadUrl = `https://storage.bunnycdn.com/${destPath}`;
 
   const resp = await axios.put(uploadUrl, feedString, {
@@ -265,7 +240,7 @@ async function uploadToBunny(feedString, filename) {
   });
 
   if (resp.status >= 200 && resp.status < 300) {
-    return `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, filename)}`;
+    return `${BUNNY_CDN_BASE}/${joinPaths(BUNNY_PATH, `feeds/${filename}`)}`;
   } else {
     throw new Error(`Upload failed with status ${resp.status}`);
   }
